@@ -1,0 +1,56 @@
+@mixin border ($locationList, $commands) {
+	@if $locationList == 'all' {
+		border: $commands;
+	} @else {
+		@each $location in $locationList {
+			#{border- + $location}: $commands;
+		}
+	}
+}
+
+@mixin caret ($position, $color) {
+	@if ($position == "down") {
+		@include border(top, 6px solid $color);
+		@include border(left right, 4px solid transparent);
+		@include border(bottom, 0px dotted);
+	} @else if ($position == "right") {
+		@include border(top bottom, 4px solid transparent);
+		@include border(right, 0px dotted);
+		@include border(left, 6px solid $color);		
+	} @else if ($position == "left") {
+		@include border(top bottom, 4px solid transparent);
+		@include border(right, 6px dotted);
+		@include border(left, 0px solid $color);		
+	} @else {
+		@include border(top, 0px solid $color);
+		@include border(left right, 4px solid transparent);
+		@include border(bottom, 6px dotted);
+	}
+}
+
+@mixin padding ($locationList, $commands) {
+	@if $locationList == 'all' {
+		padding: $commands;
+	} @else {
+		@each $location in $locationList {
+			#{padding- + $location}: $commands;
+		}
+	}
+}
+
+@mixin positionOffset ($locationList, $commands) {
+	@each $location in $locationList {
+		$location: $commands;
+	}
+}
+
+@mixin transition($transition) {
+	-webkit-transition: $transition;
+	-moz-transition: $transition;
+	transition: $transition;
+}
+
+@mixin transparent ($color, $opacity, $fallback) {
+	background: $fallback; /* The Fallback */
+	background: rgba($color, $opacity);
+}
