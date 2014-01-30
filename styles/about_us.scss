@@ -5,13 +5,12 @@
 @import "content_body";
 @import "BreadCrumb";
 
-.subheading {
-	 &.underline {
+
+.underline {
 	 	padding-bottom:15px;
 		margin-bottom:30px;
-	 	border-bottom: $turquoise solid 2px;
+	 	border-bottom: $red solid 2px;
 	 }
-}
 
 .feature-vid-title {
 	font-size:150%;
@@ -99,8 +98,25 @@
 
 
 @media screen and (max-width: 767px) {
+	.quote {
+		font-size:104%;
+	}
 	.testimonial-quote-block {
-		height:auto;
-		padding:0;
+		height:465px;
+	}
+	.quote-credit {
+		padding-left:90px;
+		font-size:90%;
+	
+		&.one {
+			padding-top:20px;
+		}
+		&.two {
+			padding-top:35px;
+		}
+		&.three {
+			padding-top:40px;
+		}
 	}
 }
+
