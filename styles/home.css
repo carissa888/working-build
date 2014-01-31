@@ -52,6 +52,7 @@ body {
   padding: 0px;
   background-color: #f3ab1f !important;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  height: 139px;
   border: none;
   z-index: 5;
   border-radius: 0;
@@ -61,7 +62,8 @@ body {
   display: block;
   position: relative;
   left: 50%;
-  margin-left: -93px;
+  margin-left: -97px;
+  width: 160px;
 }
 
 #pathway-logo {
@@ -126,14 +128,16 @@ body {
   max-height: none;
 }
 .site-navigation ul {
-  float: none;
+  float: left;
+  width: 100%;
+  text-transform: uppercase;
 }
 .site-navigation ul li {
   margin-bottom: 0px;
   text-align: center;
   display: table;
   border-left: #a0a0a0 solid 1px;
-  width: 19.9%;
+  width: 20%;
   height: 50px;
   font-size: 85%;
 }
@@ -224,6 +228,7 @@ body {
 .main_toggle {
   position: absolute;
   top: -91px;
+  left: 0;
   margin: 33px;
   margin-left: 12px;
   z-index: 5;
@@ -322,6 +327,10 @@ footer .navbar-nav {
 @media (max-width: 767px) {
   footer {
     background: #d9d9d9;
+  }
+
+  .pathway-header {
+    height: 83px;
   }
 
   .byui-logo {
@@ -506,6 +515,13 @@ footer .navbar-nav {
 .main_carousel {
   padding-top: 29px;
   padding-bottom: 45px;
+}
+
+.item {
+  overflow: hidden;
+}
+.item img {
+  width: 100%;
 }
 
 .carousel-control.left, .carousel-control.right {

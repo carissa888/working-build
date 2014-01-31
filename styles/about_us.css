@@ -52,6 +52,7 @@ body {
   padding: 0px;
   background-color: #f3ab1f !important;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  height: 139px;
   border: none;
   z-index: 5;
   border-radius: 0;
@@ -61,7 +62,8 @@ body {
   display: block;
   position: relative;
   left: 50%;
-  margin-left: -93px;
+  margin-left: -97px;
+  width: 160px;
 }
 
 #pathway-logo {
@@ -126,14 +128,16 @@ body {
   max-height: none;
 }
 .site-navigation ul {
-  float: none;
+  float: left;
+  width: 100%;
+  text-transform: uppercase;
 }
 .site-navigation ul li {
   margin-bottom: 0px;
   text-align: center;
   display: table;
   border-left: #a0a0a0 solid 1px;
-  width: 19.9%;
+  width: 20%;
   height: 50px;
   font-size: 85%;
 }
@@ -224,6 +228,7 @@ body {
 .main_toggle {
   position: absolute;
   top: -91px;
+  left: 0;
   margin: 33px;
   margin-left: 12px;
   z-index: 5;
@@ -324,6 +329,10 @@ footer .navbar-nav {
     background: #d9d9d9;
   }
 
+  .pathway-header {
+    height: 83px;
+  }
+
   .byui-logo {
     display: block;
     float: none;
@@ -364,7 +373,7 @@ footer .navbar-nav {
   }
   .footer-links li:first-child {
     overflow: hidden;
-    width: 100%;
+    width: 240px;
     border: none;
     padding: 0;
   }
@@ -465,7 +474,7 @@ body {
   padding-bottom: 200px;
   position: relative;
   background-color: #d9d9d9;
-  border-right: solid white 20px;
+  border-right: solid white 15px;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -1314,109 +1323,51 @@ ul li {
   border-bottom: #cb4830 solid 2px;
 }
 
-.feature-vid-title {
-  font-size: 150%;
-  font-weight: bold;
-  color: #1c818f;
-  text-transform: none;
-}
-
-.vid-title {
-  font-size: 130%;
-  font-weight: bold;
+.credit-red {
+  font-size: 100%;
+  padding-top: 25px;
   text-transform: uppercase;
-  color: #1c818f;
-}
-
-.container {
-  clear: both;
-}
-
-.video-list {
-  padding: 30px 0;
-}
-
-.testimonial-quote-block {
-  overflow: hidden;
-  padding-top: 60px;
-  height: 565px;
-}
-
-.quote-bubble {
-  position: absolute;
-  padding: 0 10px;
-  z-index: -1;
+  color: #cb4830;
+  margin-bottom: 40px;
 }
 
 .quote {
+  font-size: 140%;
+  font-style: italic;
+  color: #cb4830;
+  margin: 0 0 30px 0;
+  padding-left: 50px;
   float: left;
-  z-index: 2;
-  margin-left: 20px;
-  width: 100%;
-  padding: 20px 20px 0 10px;
-  color: #fff;
-  font-size: 138%;
-  line-height: 155%;
+  line-height: 160%;
 }
 
-.quote-credit {
-  float: left;
-  padding-left: 110px;
-  font-size: 115%;
-}
-.quote-credit.one {
-  padding-top: 60px;
-}
-.quote-credit.two {
-  padding-top: 50px;
-}
-.quote-credit.three {
-  padding-top: 60px;
+.credit-red {
+  font-weight: bold;
+  font-size: 100%;
+  text-transform: uppercase;
+  color: #cb4830;
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+.credit-red2 {
+  font-style: italic;
+  color: #cb4830;
+}
+
+.content-block {
+  overflow: hidden;
+}
+.content-block div {
+  padding-left: 0;
+}
+
+@media (max-width: 767px) {
   .quote {
-    font-size: 104%;
-  }
-
-  .testimonial-quote-block {
-    height: 465px;
-  }
-
-  .quote-credit {
-    padding-left: 90px;
-    font-size: 90%;
-  }
-  .quote-credit.one {
-    padding-top: 20px;
-  }
-  .quote-credit.two {
-    padding-top: 35px;
-  }
-  .quote-credit.three {
-    padding-top: 40px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .quote {
-    font-size: 104%;
-  }
-
-  .testimonial-quote-block {
-    height: 465px;
-  }
-
-  .quote-credit {
-    padding-left: 90px;
-    font-size: 90%;
-  }
-  .quote-credit.one {
-    padding-top: 20px;
-  }
-  .quote-credit.two {
-    padding-top: 35px;
-  }
-  .quote-credit.three {
-    padding-top: 40px;
+    font-size: 140%;
+    font-style: italic;
+    color: #cb4830;
+    margin: 0 0 30px 0;
+    padding-left: 0;
+    float: left;
+    line-height: 160%;
   }
 }

@@ -81,7 +81,7 @@ body {
 	padding-bottom:200px;
 	position: relative;
 	background-color: $sidebar-gray;
-	border-right: solid white 20px;
+	border-right: solid white 15px;
 	@include padding(left right, 30px);
 	
 	.sidebar-caret {
@@ -201,7 +201,6 @@ body {
 	
 	
 	#sideNav {
-	
 		h3 {
 			a {
 				text-transform: uppercase;

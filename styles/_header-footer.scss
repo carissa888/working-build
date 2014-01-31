@@ -10,6 +10,7 @@
 	padding: 0px;
 	background-color: $pathway-orange !important;
 	box-shadow: 0px 5px 20px rgba(0,0,0,.3);
+	height:139px;
 	border: none;
 	z-index: 5;
 	border-radius: 0;
@@ -19,7 +20,8 @@
 	display: block;
 	position: relative;
 	left: 50%;
-	margin-left: -93px;
+	margin-left: -97px;
+	width: 160px;
 }
 
 #pathway-logo {
@@ -84,14 +86,16 @@
 	}
 	
 	ul {
-		float: none;
+		float: left;
+		width:100%;
+		text-transform:uppercase;
 		
 		li {
 			margin-bottom: 0px;
 			text-align: center;
 			display: table;
 			border-left: #a0a0a0 solid 1px;
-			width: 19.9%;
+			width: 20%;
 			height: 50px;
 			font-size: 85%;
 			
@@ -136,6 +140,7 @@
 .main_toggle{
 	position: absolute;
 	top: -91px;
+	left:0;
 	margin: 33px;
 	margin-left: 12px;
 	z-index: 5;
@@ -239,6 +244,10 @@ footer {
 @media (max-width: 767px) {
 	footer {
 		background: $sidebar-gray;
+	}
+	
+	.pathway-header {
+		height:83px;
 	}
 	
 	.byui-logo {
