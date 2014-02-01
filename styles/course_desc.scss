@@ -1,0 +1,41 @@
+@import "global";
+@import "FunctionLibrary";
+@import "header-footer";
+@import "sidebar";
+@import "content_body";
+@import "BreadCrumb";
+
+.c-heading{
+	font-style: italic;
+	font-size: 140%;
+	&.red{
+		color:$red;
+	}
+	&.turquoise{
+		color:$turquoise;
+	}
+}
+
+.c-heading2{
+	text-transform: uppercase;
+	font-size: 125%;
+	font-weight: bold;
+	&.red{
+		color:$red;
+	}
+	&.turquoise{
+		color:$turquoise;
+	}
+}
+
+.c-heading3{
+	text-transform: uppercase;
+	font-size: 125%;
+	font-style: italic;
+	&.red{
+		color:$red;
+	}
+	&.turquoise{
+		color:$turquoise;
+	}
+}
