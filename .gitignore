@@ -215,7 +215,7 @@ pip-log.txt
 .mr.developer.cfg
 
 #############
-## custom additions for pathway implementation
+## pathway
 #############
 
 #directories
@@ -226,4 +226,7 @@ gitignore/
 *.ai
 *.lnk
 *.psd
-*.scss
+
+#files
+website_contentpageexample.pdf
+website_homepage.pdf
