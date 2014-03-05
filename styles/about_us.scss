@@ -1,0 +1,63 @@
+@import "global";
+@import "FunctionLibrary";
+@import "header-footer";
+@import "sidebar";
+@import "content_body";
+@import "BreadCrumb";
+
+
+.underline {
+	 	padding-bottom:15px;
+		margin-bottom:30px;
+	 	border-bottom: $red solid 2px;
+	 }
+
+.credit-red{
+	font-size:100%;
+	padding-top:25px;
+	text-transform: uppercase;
+	color:$red;
+	margin-bottom: 40px;
+}
+
+.quote{
+	font-size:140%;
+	font-style: italic;
+	color:$red;
+	margin: 0 0 30px 0;
+	padding-left: 50px;
+	float:left;
+	line-height:160%;
+}
+
+.credit-red{
+	font-weight: bold;
+	font-size:100%;
+	text-transform: uppercase;
+	color:$red;
+
+}
+
+.credit-red2{
+	font-style: italic;
+	color:$red;
+}
+
+.content-block {
+	overflow:hidden;
+	div {
+		padding-left:0;
+	}
+}
+
+@media (max-width: 767px) {
+	.quote{
+		font-size:140%;
+		font-style: italic;
+		color:$red;
+		margin: 0 0 30px 0;
+		padding-left: 0;
+		float:left;
+		line-height:160%;
+	}
+}

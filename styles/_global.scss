@@ -1,0 +1,17 @@
+/** Global Styles **/
+
+@import "colorScheme";
+
+body {
+	color:$body-text;
+}
+
+img {
+	-ms-interpolation-mode: bicubic;
+}
+
+#main-container{
+	//padding-bottom:50px;
+}
+
+/*** END GLOBAL ***/
