@@ -1128,7 +1128,9 @@ body {
 .click-here {
   font-style: italic;
   font-size: 110%;
-  display: inline;
+  display: table-cell;
+  vertical-align: middle;
+  height: 70px;
   /*padding-left:10px;*/
 }
 .click-here.red {
@@ -1155,7 +1157,7 @@ body {
 
 /*The location pin icon*/
 #location-icon {
-  display: inline;
+  float: left;
   position: relative;
   z-index: 2;
   margin-right: 10px;
@@ -1232,7 +1234,7 @@ body {
 #adm-img {
   position: relative;
   z-index: 1;
-  margin-top: -20px;
+  /*margin-top:-20px;*/
 }
 
 .indent {
