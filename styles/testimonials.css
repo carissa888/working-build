@@ -331,6 +331,7 @@ footer .navbar-nav {
   width: 78px;
   height: 46px;
   float: right;
+  margin-top: 5px;
   background: url(../img/byui_logo.png);
 }
 
@@ -349,7 +350,7 @@ footer .navbar-nav {
   display: inline;
 }
 .footer-links li a.social-icon {
-  margin: 5px;
+  margin: 2px;
   padding: 0;
 }
 .footer-links li a:hover {
@@ -360,8 +361,20 @@ footer .navbar-nav {
   border-right: solid 1px;
   padding-left: 0px;
   padding-right: 21px;
+  line-height: 34px;
+}
+.footer-links li.footer-link {
+  margin-top: 10px;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer-links .footer-link {
+    font-size: 92%;
+  }
+  .footer-links .footer-link a {
+    padding: 0 13px;
+  }
+}
 /***** Mobile Footer *****/
 @media (max-width: 767px) {
   footer {
