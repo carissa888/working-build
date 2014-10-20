@@ -3,3 +3,164 @@
 @import "header-footer";
 @import "sidebar";
 @import "BreadCrumb";
+@import "content_body";
+
+h2.heading {
+	font-size:230%;
+	letter-spacing:1px;
+	padding-top:5px;
+	text-transform: uppercase;
+}
+
+h3.inset {
+	color:$green;
+	border-top: solid 2px $green;
+	border-bottom: solid 2px $green;
+	margin: 30px 0;
+	padding: 12px 0;
+	text-align:center;
+	font-size:200%;
+}
+
+h2.subsection {
+	color:#4d4d4d;
+	text-transform: uppercase;
+	margin: 30px 0;
+	font-weight:bold;
+}
+
+@for $i from 1 through 7 {
+	h4.accordion-#{$i}{
+		background-color:lighten($darkgreen, $i*5);
+		display:block;
+		padding:20px 65px;
+		margin:0;
+		text-transform:uppercase;
+		letter-spacing:1px;
+		color:white;
+		line-height:120%;
+
+		&:before {
+			display: block;
+			position: absolute;
+			left: 50px;
+			content: "";
+			border-top: solid transparent 8px;
+			border-bottom: solid transparent 8px;
+			border-left: solid 14px white;
+			transition: all .3s;
+		}
+		&:hover {
+			cursor:pointer;
+		}
+		&.active:before {
+			/* Rotate caret */
+		    -ms-transform: rotate(90deg); /* IE 9 */
+		    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+		    transform: rotate(90deg);
+		}
+		&:hover:before {
+			left:55px;
+		}
+		&.active:hover:before {
+			left:50px;
+		}
+	}
+}
+
+div.accordion {
+	display:none;
+}
+
+.image-caption-1, .image-caption-2 {
+	padding:15px 30px;
+	font-size:110%;
+	border-bottom:#333 solid 11px;
+	font-style:italic;
+}
+.image-caption-1 {
+	background-color:#D4DCA6;
+}
+.image-caption-2{
+	background-color:#1B8085;
+	color:white;
+}
+
+.img-responsive img{
+	width:100%;	
+}
+
+.to-serve-box {
+	background-color:#E5E9CE;
+	padding: 30px 35px;
+	h3 {
+	    margin:0;
+	    margin-bottom: 20px;
+	    padding:0;
+		color:#4B5611;
+		font-size: 140%;
+	}
+	li {
+		margin: 18px 0;
+	}
+}
+.block-1, .block-2, .block-3 {
+	padding-left:40px;
+	margin-top:30px;
+
+	ul {
+		padding-left:15px;
+	}
+	h4 {
+		color:$turquoise;
+		font-weight: 200;
+		letter-spacing:1px;
+		font-weight:115%;
+		margin: 0;
+		padding:3px 0 10px 0;
+	}
+	h5 {
+		color:$navy-blue;
+		text-transform:uppercase;
+		font-weight:bold;
+		padding-top:10px;
+	}
+	.semester {
+
+		margin: 15px 0;
+		.season {
+			text-transform: uppercase;
+			color:#4D4D4D;
+			font-weight:bold;
+			padding: 0 5px 0 11px;
+			font-size:120%;
+			letter-spacing:1px;
+		}
+	}
+}
+
+.block-1 {
+	background: url("../img/Speaking-Partners-Main/website_speakingpartners_image6.png") no-repeat top left;
+}
+
+.block-2 {
+	background: url("../img/Speaking-Partners-Main/website_speakingpartners_image7.png") no-repeat top left;
+}
+
+.block-3 {
+	background: url("../img/Speaking-Partners-Main/website_speakingpartners_image8.png") no-repeat top left;
+}
+
+.inline-header {
+	margin: 30px 0;
+	font-size:150%;
+	text-transform:uppercase;
+	font-weight:bold;
+	a {
+		text-transform: capitalize;
+		font-style:italic;
+		font-weight:normal;
+		padding: 0 5px;
+		text-decoration:underline;
+	}
+}

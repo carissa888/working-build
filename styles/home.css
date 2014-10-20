@@ -19,6 +19,14 @@
   color: #173e6b;
 }
 
+.black {
+  color: #222222;
+}
+
+.darkgreen {
+  color: #6c7d2a;
+}
+
 body {
   color: #222222;
 }
@@ -49,6 +57,14 @@ img {
 
 .navy_blue {
   color: #173e6b;
+}
+
+.black {
+  color: #222222;
+}
+
+.darkgreen {
+  color: #6c7d2a;
 }
 
 /****** Header ******/
@@ -592,6 +608,14 @@ footer .navbar-nav {
 
 .navy_blue {
   color: #173e6b;
+}
+
+.black {
+  color: #222222;
+}
+
+.darkgreen {
+  color: #6c7d2a;
 }
 
 .main_carousel {

@@ -28,7 +28,7 @@
 	<link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Custom styles for this template -->
-	<link href="../../styles/local_leaders.css" rel="stylesheet">
+	<link href="../../styles/speaking_partners.css" rel="stylesheet">
 
 	<!-- Just for debugging purposes. Don't actually copy this line! -->
 	<!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -111,14 +111,25 @@
             <img id="arrow-icon" src="../../img/arrow.png" width="14" height="14" alt="arrow">
 
 </button>
-   				<div class="hero pf-page-header no-icon">
-   					<h1 id="Standard" class="page-title">Speaking Partners</h1>
-   				</div>
-   				<div class="pf-section no-icon">
-   					<h2 id="HowPathwayWorks" class="subheading green">Speaking Partner Guidelines</h2>
-   				
-   					<p>It is NOT required or necessary to study all of the information in this document in order to volunteer as a speaking partner. The most important thing you can do is meet with your partner and let them speak English to you and with you. However, the following guidelines may be of interest to those wanting to improve their teaching, tutoring, or foreign language-learning skills.</p>
+   				<br>
+      <div class="hero pf-page-header">
+        <img src="../../img/Speaking-Partners-Main/website_speakingpartners_image5.png" />
+        <h2 class="subheading green">Speaking Partners</h2>
+        <h1 id="Standard" class="green page-title">Guidelines for Mentors</h1>
+      </div>
+      <br>
+   				<div class="pf-section">
 
+   					<p>It is not required or necessary to study all of this information in order to be an effective speaking partner mentor. The most important thing you can do is meet with your partner and let them speak English to you and with you. However, the following guidelines may be of interest to those wanting to improve their teaching, tutoring, or foreign language-learning skills.</p>
+</div>
+<br />
+            <h4 class="accordion-1">role of the mentor</h4>
+            <h4 class="accordion-2">authentic language &amp; interation</h4>
+            <h4 class="accordion-3">corrective feedback</h4>
+            <h4 class="accordion-4">building appropriate relationships</h4>
+            <h4 class="accordion-5">cultural paradigms &amp; behaviors</h4>
+
+<div class="accordion pf-section">
             <h3 class="p-heading green">English Speaker Role</h3>
             <p>Most language learning takes place in a formal face-to-face classroom setting. However, in the Pathway English Language Program, we have the challenge of accomplishing the same learning goals in an online setting. Speaking and real-time communication are among the most important skills in learning a new language.</p>
 
@@ -333,12 +344,12 @@
           <!-- Sidebar Start -->
         <div class="col-xs-6 col-sm-4 sidebar-offcanvas pull-right" id="sidebar" role="navigation">
       <div class="pf-sidebar header NoAffix footnote" id="sideNav" role="complementary">
-        <ul class="nav green pf-sidenav">
-          <li> <a href="what-is-speaking-partners.html"> <span class="caret"></span> What is the Speaking Partner Program?</a> </li>
-          <li> <a href="https://web.byui.edu/SpeakingPartners/Volunteer/"> <span class="caret"></span> Sign Up / Find A Partner</a> </li>
+        <ul class="nav darkgreen pf-sidenav">
+          <li> <a href="what-is-speaking-partners.html"> <span class="caret"></span> Speaking Partners</a> </li>
+          <li> <a href="signup.html"> <span class="caret"></span> Sign Up / Find&nbsp;A&nbsp;Partner</a> </li>
           <li> <a href="discussion-materials.html"> <span class="caret"></span> Discussion Materials</a>
           </li>
-          <li class="active"> <a href="guidelines.html"> <span class="caret"></span> Speaking Partner Guidelines</a>
+          <li class="active"> <a href="guidelines.html"> <span class="caret"></span> Guidelines for Mentors</a>
           </li>
           <li> <a href="contact-us.html"> <span class="caret"></span> Contact Us</a>
           </li>
@@ -373,12 +384,18 @@
 </footer>
 
 <!-- /container --> 
-
 <!-- Bootstrap core JavaScript
 	================================================== --> 
 	<!-- Placed at the end of the document so the pages load faster --> 
 	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script> 
 	<script src="../../dist/js/bootstrap.min.js"></script>
+  <script>
+  //Script for accordion
+  $("h4[class*=accordion-]").click(function(){
+    $(this).toggleClass("active");
+    $(this).next("div.accordion").slideToggle();
+  });
+</script>
     <script src="../../js/drawer.js"></script>
 </body>
 </html>
