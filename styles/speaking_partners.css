@@ -1509,11 +1509,26 @@ h2.subsection {
   font-weight: bold;
 }
 
+h5.green {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #a9c038;
+}
+
+h6 {
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 100%;
+  margin: 15px 0 4px 0;
+  letter-spacing: 1px;
+}
+
 h4.accordion-1 {
   background-color: #7c9030;
   display: block;
   padding: 20px 65px;
   margin: 0;
+  margin-bottom: 0;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: white;
@@ -1552,6 +1567,7 @@ h4.accordion-2 {
   display: block;
   padding: 20px 65px;
   margin: 0;
+  margin-bottom: 0;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: white;
@@ -1590,6 +1606,7 @@ h4.accordion-3 {
   display: block;
   padding: 20px 65px;
   margin: 0;
+  margin-bottom: 0;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: white;
@@ -1628,6 +1645,7 @@ h4.accordion-4 {
   display: block;
   padding: 20px 65px;
   margin: 0;
+  margin-bottom: 0;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: white;
@@ -1666,6 +1684,7 @@ h4.accordion-5 {
   display: block;
   padding: 20px 65px;
   margin: 0;
+  margin-bottom: 0;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: white;
@@ -1704,6 +1723,7 @@ h4.accordion-6 {
   display: block;
   padding: 20px 65px;
   margin: 0;
+  margin-bottom: 0;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: white;
@@ -1742,6 +1762,7 @@ h4.accordion-7 {
   display: block;
   padding: 20px 65px;
   margin: 0;
+  margin-bottom: 0;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: white;
@@ -1777,6 +1798,7 @@ h4.accordion-7.active:hover:before {
 
 div.accordion {
   display: none;
+  margin-top: 10px;
 }
 
 .image-caption-1, .image-caption-2 {
@@ -1799,18 +1821,18 @@ div.accordion {
   width: 100%;
 }
 
-.to-serve-box {
+.bullet-box {
   background-color: #E5E9CE;
   padding: 30px 35px;
 }
-.to-serve-box h3 {
+.bullet-box h3 {
   margin: 0;
   margin-bottom: 20px;
   padding: 0;
   color: #4B5611;
   font-size: 140%;
 }
-.to-serve-box li {
+.bullet-box li {
   margin: 18px 0;
 }
 
