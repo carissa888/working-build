@@ -630,7 +630,7 @@ body {
   display: none;
   padding-left: .8em;
   font-weight: normal;
-  text-transform: capitalize;
+  text-transform: none;
 }
 #sidebar .nav .nav li:last-child {
   margin-bottom: 5px;
@@ -1797,7 +1797,7 @@ h4.accordion-7.active:hover:before {
 }
 
 div.accordion {
-  display: none;
+  display: block;
   margin-top: 10px;
 }
 
