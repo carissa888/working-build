@@ -12,22 +12,18 @@ $(document).ready(function() {
 	$(window).scroll(function() {
 		if ($(window).scrollTop() < $("#advising-section").offset().top)
 		{
-			console.log("Pathway");
 			changeActive("to_pathway");
 		}
 		else if ($(window).scrollTop() < $("#after-section").offset().top)
 		{
-			console.log("Advising");
 			changeActive("to_advising");
 		}
 		else if ($(window).scrollTop() < $("#sp-section").offset().top)
 		{
-			console.log("After Pathway");
 			changeActive("to_after");
 		}
 		else
 		{
-			console.log("SP");
 			changeActive("to_sp");
 		}
 	});
