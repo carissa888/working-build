@@ -1276,3 +1276,37 @@ $page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;*
 	width: 13px;
 	height: 20px;
 }*/
+/* local leaders specific styles */
+.instructions {
+  position: relative;
+  margin: 0;
+  margin-left: 30px;
+  padding: 0;
+  list-style: none;
+  counter-reset: li-counter; }
+  .instructions > li {
+    position: relative;
+    margin: 0;
+    margin-top: 10px;
+    padding-left: 10px;
+    min-height: 3em; }
+    .instructions > li:before {
+      position: absolute;
+      top: 0;
+      left: -30px;
+      width: 30px;
+      height: 30px;
+      font-size: 130%;
+      line-height: 1.7;
+      text-align: center;
+      color: #fff;
+      border-radius: 50%;
+      background-color: #173e6b;
+      content: counter(li-counter);
+      counter-increment: li-counter; }
+  .instructions ul {
+    list-style: none;
+    color: #666666;
+    padding-left: 25px; }
+    .instructions ul a {
+      color: #dc4831; }
