@@ -103,6 +103,26 @@
 <!-- Breadcrumb end -->
 
 
+<!-- Popup Modal -->
+<div class="modal fade" id="disclaimerPopup" tabindex="-1" role="dialog" aria-labelledby="disclaimer" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="disclaimer">Pathway Local Tax Disclaimer</h4>
+      </div>
+      <div class="modal-body">
+        <p>The following countries may require tax payements when participating in Pathway:</p>
+        <ul style="list-style:none;"><li><strong>Argentina</strong></li><li><strong>Chile</strong></li></ul>
+       	<em>If you have any questions regarding possible taxation resulting from your participation in Pathway, we suggest that you contact a tax advisor.</em>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	  </div>
+	</div>
+  </div>
+</div>
+
 <!-- Start to the content area -->
 <div id="main-container" class="container">
 	<div class="row row-offcanvas row-offcanvas-right">
@@ -135,7 +155,7 @@
 					<h3 id="FinancialAid" class="p-heading turquoise">Financial Aid</h3>
 					<p>Financial aid is not available for Pathway students. However, U.S. students who have a high school diploma or GED may apply for federal financial aid after they complete Pathway and if they are accepted into a degree-seeking program.</p>
 					<h3 id="LocalTax" class="p-heading turquoise">Local Taxes</h3>
-					<p>As a result of your Pathway participation, taxes or other payments may be owed to your local government. It is your responsibility to understand those laws and comply.</p>
+					<p>As a result of your Pathway participation, taxes or other payments may be owed to your local government. It is your responsibility to understand those laws and comply. <a href="javascript:void(0);" data-toggle="modal" data-target="#disclaimerPopup">Click here</a> to see which countries may require tax payments.</p>
 				</div>
 			</div>
 			<a href="/working-build/pages/what_is_pathway/l_version/admission.html" class="previous turquoise"><< Admission Requirements</a>
