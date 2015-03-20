@@ -1179,3 +1179,71 @@ $page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;*
         display: none; } }
   .pf-page-header p {
     text-transform: none; }
+
+/*Course Descriptions Pages*/
+.c-heading {
+  font-size: 180%;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, serif;
+  letter-spacing: 1px;
+  position: relative;
+  cursor: pointer;
+  padding-left: 23px;
+  margin: 25px 0 5px 0; }
+  .c-heading span {
+    font-family: Helvetica, sans-serif;
+    font-size: 65%;
+    font-style: italic; }
+  .c-heading.red {
+    color: #dc4831; }
+    .c-heading.red:before {
+      border-left-color: #dc4831; }
+  .c-heading.turquoise {
+    color: #1c818f; }
+    .c-heading.turquoise:before {
+      border-left-color: #1c818f; }
+  .c-heading:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-left: 12px solid black;
+    transition: all .3s;
+    -ms-transform-origin: 10% 50%;
+    /* IE 9 */
+    -webkit-transform-origin: 10% 50%;
+    /* Chrome, Safari, Opera */
+    transform-origin: 10% 50%; }
+  .c-heading.active:before {
+    -ms-transform: rotate(90deg);
+    /* IE 9 */
+    -webkit-transform: rotate(90deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(90deg); }
+
+.c-heading2 {
+  text-transform: uppercase;
+  font-size: 120%;
+  font-weight: bold;
+  margin: 30px 0 0 0;
+  letter-spacing: 1px; }
+  .c-heading2.red {
+    color: #dc4831; }
+  .c-heading2.turquoise {
+    color: #1c818f; }
+
+.c-heading3 {
+  text-transform: uppercase;
+  font-size: 110%;
+  font-style: italic;
+  margin: 3px 0;
+  letter-spacing: 1px; }
+  .c-heading3.red {
+    color: #dc4831; }
+  .c-heading3.turquoise {
+    color: #1c818f; }
+
+.c-section {
+  margin-left: 25px; }

@@ -103,17 +103,23 @@
 <!-- Breadcrumb end -->
 
 
-<!-- Start to the content area -->
-
 <div id="main-container" class="container">
   <div class="row row-offcanvas row-offcanvas-right">
     <div class="col-xs-12 col-sm-8 main-content">
-      <div class="hero pf-page-header no-icon">
-        <h1 id="Standard" class="page-title">Course Descriptions</h1>
-        <h3 class="subheading red">Standard Version</h3>
+      <button type="button" onClick="open_side();" class="navbar-toggle sidebar-btn collapsed">
+        <img id="arrow-icon" src="/working-build/img/arrow.png" width="14" height="14" alt="arrow">
+      </button>
+      <div class="hero pf-page-header"> <img src="/working-build/img/wip/icons/standard.png" alt="standardLogo">
+        <h1 id="Standard" class="page-title">Standard Version</h1> 
+        <p class="page-summary">For students who are proficient in English</p>
       </div>
-      <div class="pf-section no-icon">
-        <h4 class="c-heading red">Academic Courses</h4>
+      <div class="pf-section">
+        <div class="pf-page-header"> <img src="/working-build/img/wip/icons/books.png" width="45" height="46" alt="gear">
+          <h2 id="HowPathwayWorks" class="subheading">Course Descriptions</h2>
+        </div>
+        <p>Pathway's academic courses are offered through BYU-Idaho. Religion classes are offered through local institute programs or online through BYU-Idaho, depending on a student's age.</p>
+        <h4 class="c-heading red accordion-1">BYU-Idaho Academic Courses <span>(for all students)</span></h4>
+        <div class="accordion c-section">
         <h5 class="c-heading2 red">GS 120 LIFE SKILLS</h5>
         <h6 class="c-heading3 red">3 CREDITS</h6>
 
@@ -124,17 +130,14 @@
           provident living, budgeting, goal-setting, time management, learning
           to lead by teaching others, and blessing others with what is learned.
         </p>
-        <br>
         <h5 class="c-heading2 red">ENG 106 BASIC WRITING</h5>
         <h6 class="c-heading3 red">3 CREDITS</h6>
-
         <p>ENG 106 teaches basic writing conventions. Topics in this course
           include: understanding the writing process; writing effective
           sentences, paragraphs, and short essays; patterns of organization;
           rhetorical modes and purposes; audience analysis; the composing
           process; and editing.
         </p>
-        <br>
         <h5 class="c-heading2 red">MATH 100G INTRO TO ALGEBRA AND FINANCE</h5>
         <h6 class="c-heading3 red">3 CREDITS</h6>
 
@@ -146,50 +149,29 @@
           budgeting; and discuss provident living topics (e.g., self-reliance,
           stewardship, and personal finance).
         </p>
-        <br>
-        <br>
-        <h4 class="c-heading red">Religion Courses</h4>
-        <h5 class="c-heading2 red">FDREL 333 TEACHINGS OF THE LIVING PROPHETS</h5>
+        </div>
+        <h4 class="c-heading red accordion-2">BYU-Idaho Religion Courses <span>(for Age 31+ students)</span></h4>
+        <div class="accordion c-section">
+        <h5 class="c-heading2 red">FDREL 121 BOOK OF MORMON PT. 1</h5>
         <h6 class="c-heading3 red">2 CREDITS</h6>
-
-        <p>FDREL 333 is designed to strengthen testimony of living prophets
-          and their teachings. It discusses the need for living prophets, the role
-          of the President of the Church, the divine order of succession in the
-          Presidency, the Quorum of the First Presidency, the Quorum of the
-          Twelve Apostles, and the importance of general conferences.
+        <p>FDREL Book of Mormon courses are taught online through BYU-Idaho. FDREL 121 examines 1 Nephi through Alma 29. The teachings of the prophets — including Alma, Nephi, Jacob, Enos, and Mosiah — are studied. Doctrinal topics covered in this course include faith, repentance, the Atonement, the war against Satan, the purpose of life, and the “Doctrine of Christ” found in the scriptures.
         </p>
-        <br>
-        <h5 class="c-heading2 red">FDREL 121 BOOK OF MORMON 1</h5>
+        <h5 class="c-heading2 red">FDREL 122 BOOK OF MORMON PT. 2</h5>
         <h6 class="c-heading3 red">2 CREDITS</h6>
-
-        <p>FDREL Book of Mormon courses are taught online through
-          BYU-Idaho. FDREL 121 examines 1 Nephi through Alma 29. The
-          teachings of the prophets – including Alma, Nephi, Jacob, Enos, and
-          Mosiah – will be studied. Doctrinal topics covered in this course
-          include faith, repentance, the Atonement, the war against Satan, the
-          purpose of life, and the “Doctrine of Christ” found in the scriptures.
+        <p>FDREL Book of Mormon courses are taught online through BYU-Idaho. FDREL 122 examines Alma 30 through Moroni 10. The teachings of the prophets — including Alma, Helaman, Mormon, Ether, and Moroni — are studied. Doctrinal topics covered in this course include faith, repentance, the Atonement, the war against Satan, the purpose of life, and the “Doctrine of Christ” found in the scriptures.
         </p>
-        <br>
-        <h5 class="c-heading2 red">FDREL 122 BOOK OF MORMON 2</h5>
+        <h5 class="c-heading2 red">FDREL 200 FAMILY FOUNDATIONS</h5>
         <h6 class="c-heading3 red">2 CREDITS</h6>
-
-        <p>FDREL Book of Mormon courses are taught online through
-          BYU-Idaho. FDREL 122 examines Alma 30 through Moroni 10. The
-          teachings of the prophets – including Alma, Helaman, Mormon, Ether,
-          and Moroni – will be studied. Doctrinal topics covered in this course
-          include faith, repentance, the Atonement, the war against Satan, the
-          purpose of life, and the “Doctrine of Christ” found in the scriptures.
+        <p>This course centers on “The Family: A Proclamation to the World” and develops gospel doctrines and principles pertaining to a successful and happy marriage and family life. Practical skills required to achieve and sustain provident living will also be explored and practiced.
         </p>
-        <br>
-        <h5 class="c-heading2 red">INSTITUTE BOOK OF MORMON</h5>
-        <h6 class="c-heading3 red">2 CREDITS, TRANSFERRABLE TO BYU-IDAHO</h6>
-
-        <p>Institute Book of Mormon is taught in two sections. The first course
-          covers 1 Nephi through Alma 16, while the second course covers
-          Alma 17 through Moroni 10. Emphasis is given to doctrines taught
-          and the messages therein. These courses may be taken in any order.
+        </div>
+        <h4 class="c-heading red accordion-2">Institude Courses <span>(for Age 18-30 students)</span></h4>
+        <div class="accordion c-section">
+        <h5 class="c-heading2 red">INSTITUTE Courses</h5>
+        <h6 class="c-heading3 red">2 CREDITS</h6>
+        <p>The institute courses 18–30-year-old students take vary at each institute location. Students should contact their local institute to find out which courses are offered.
         </p>
-        <br>
+        </div>
       </div>
     </div>
     <!-- Sidebar Start -->
@@ -260,6 +242,10 @@
 
 <script src="/working-build/js/drawer.js"></script> 
 
+
+<script src="/working-build/js/accordion.js"></script>
+
+<script src="/working-build/js/drawer.js"></script>
 
 
 </body>
