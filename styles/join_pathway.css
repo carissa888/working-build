@@ -851,3 +851,119 @@ body {
 	width: 13px;
 	height: 20px;
 }*/
+.page-title {
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, serif;
+  color: #7fc7b6;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-size: 250%; }
+
+.main-content {
+  padding-right: 40px; }
+
+.icon-header {
+  position: relative;
+  display: block;
+  font-size: 160%;
+  font-weight: normal;
+  padding: 15px 0 20px 60px; }
+  .icon-header .narrow-bold {
+    font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, serif;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .icon-header img.icon {
+    position: absolute;
+    left: 0; }
+
+.section-header {
+  position: relative;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, serif;
+  background-color: #dc4831;
+  text-transform: uppercase;
+  color: white;
+  font-size: 120%;
+  letter-spacing: 0.08em;
+  margin: 20px 0 20px 28px;
+  padding: 2px 20px; }
+  .section-header img {
+    position: absolute;
+    left: -28px; }
+    .section-header img.check {
+      top: -3px; }
+    .section-header img.page {
+      top: -5px; }
+
+.admissions-req {
+  padding-left: 70px;
+  margin-bottom: 30px; }
+  .admissions-req li {
+    margin-bottom: 10px; }
+
+.apply-sect {
+  padding-left: 50px; }
+  .apply-sect .map_bg {
+    background-image: url("/working-build/img/join-pathway/JoinPathway_Map.png");
+    background-repeat: no-repeat; }
+  .apply-sect .apply-header {
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, serif;
+    font-weight: bold;
+    color: #7fc7b6;
+    font-size: 150%;
+    padding-left: 42px;
+    letter-spacing: 0.08em;
+    padding-top: 5px;
+    padding-bottom: 5px; }
+    .apply-sect .apply-header:before {
+      position: absolute;
+      left: 0;
+      top: -2px;
+      display: block;
+      background-color: #7fc7b6;
+      font-size: 100%;
+      border-radius: 99px;
+      color: white;
+      width: 31px;
+      height: 31px;
+      padding: 1px 10px; }
+    .apply-sect .apply-header#first:before {
+      content: '1'; }
+    .apply-sect .apply-header#second:before {
+      content: '2'; }
+  .apply-sect .apply-subsection {
+    padding-left: 42px;
+    margin-bottom: 20px; }
+    .apply-sect .apply-subsection .dropdown-header {
+      position: relative;
+      text-transform: uppercase;
+      font-size: 100%;
+      letter-spacing: 0.08em;
+      color: #7fc7b6;
+      padding-left: 23px;
+      cursor: pointer; }
+      .apply-sect .apply-subsection .dropdown-header:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 0;
+        height: 0;
+        border: 7px solid transparent;
+        border-left: 12px solid #7fc7b6;
+        transition: all .3s;
+        -ms-transform-origin: 10% 50%;
+        /* IE 9 */
+        -webkit-transform-origin: 10% 50%;
+        /* Chrome, Safari, Opera */
+        transform-origin: 10% 50%; }
+      .apply-sect .apply-subsection .dropdown-header.active:before {
+        -ms-transform: rotate(90deg);
+        /* IE 9 */
+        -webkit-transform: rotate(90deg);
+        /* Chrome, Safari, Opera */
+        transform: rotate(90deg); }
+    .apply-sect .apply-subsection .dropdown {
+      font-size: 100%;
+      padding-left: 23px;
+      margin-bottom: 20px; }
+  .apply-sect .h-rule {
+    border-bottom: 2px #7fc7b6 solid; }

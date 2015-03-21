@@ -73,7 +73,7 @@
       <ul class="nav navbar-nav">
         <li class="nav-1 "><a href="/working-build/pages/testimonials/testimonials.html">Testimonials</a></li>
         <li class="nav-2 "><a href="/working-build/pages/what_is_pathway/what_is_pathway.html">What Is Pathway</a></li>
-        <li class="nav-3 nav_active"><a href="#join">Join Pathway</a></li>
+        <li class="nav-3 nav_active"><a href="/working-build/pages/join-pathway.html">Join Pathway</a></li>
         <li class="nav-4 "><a href="/working-build/pages/speaking_partners/what-is-speaking-partners.html">Speaking Partners</a></li>
         <li class="nav-5 "><a href="/working-build/pages/local_leaders/using-pathway.html">Local Leaders</a></li>
       </ul>
@@ -101,19 +101,97 @@
 <!-- Breadcrumb end -->
 
 
-<!-- Start to the content area -->
-
 <div id="main-container" class="container">
   <div class="row row-offcanvas row-offcanvas-right">
-    <div class="col-xs-12 main-content">
-      <div class="hero pf-page-header"> <img style="width:52px; height:auto; margin-top:20px;" src="/working-build/img/media/videos-icon.png" alt="supportLogo">
+    <div class="col-xs-12 col-sm-8 main-content">
+      <button type="button" onClick="open_side();" class="navbar-toggle sidebar-btn collapsed">
+        <img id="arrow-icon" src="/working-build/img/arrow.png" width="14" height="14" alt="arrow">
+      </button>
+      <div class="hero pf-page-header">
         <h1 id="Standard" class="page-title">Join Pathway</h1>
-        <p class="page-summary">subtitle</p>
-          
-        [content here]
-        
+        <div class="icon-header"><img class="icon" src="/working-build/img/join-pathway/JoinPathway_NoFee.png"><span class="narrow-bold">No</span> application fee</div>
+        <div class="icon-header"><img class="icon" src="/working-build/img/join-pathway/JoinPathway_NoApplication.png"><span class="narrow-bold">No</span> standardized scores (ACT/SAT)</div>
+        <div class="icon-header"><img class="icon" src="/working-build/img/join-pathway/JoinPathway_NoEE.png"><span class="narrow-bold">No</span> ecclesiastical endorsement<sup>+</sup></div>
+
+        <div class="section-header" id="AdmissionRequirements"><img class="check" src="/working-build/img/join-pathway/JoinPathway_AdmissionRequirements.png">Admission Requirements</div>
+
+        <ul class="admissions-req">
+          <li>Be a member of The Church of Jesus Christ of Latter-day Saints</li>
+          <li>Attend weekly gatherings during Pathway (one full year)</li>
+          <li>Strive to live by the BYU-Idaho Honor Code</li>
+          <li>Complete an English proficiency assessment (for non-native English speakers)</li>
+          <li>Be capable of entry-level college academic work with post-secondary disability accommodations, if qualified and required</li>
+          <li>Be able to access a computer with high-speed Internet and webcam/video chat capabilities on a daily basis</li>
+          <li>Live within a reasonable commuting distance of a Pathway site</li>
+        </ul>
+
+        <div class="section-header" id="AdmissionRequirements"><img class="page" src="/working-build/img/join-pathway/JoinPathway_ApplyToPathway.png">Apply to Pathway</div>
+
+        <div class="apply-sect">
+          <p>Applying to Pathway is simple. Follow these steps to start your journey today.</p>
+          <div id="first" class="apply-header">LDS Account</div>
+          <div class="apply-subsection">
+            <p>In order to apply to Pathway, you will need an LDS Account. Please select one of the following options:</p>
+            <h4 class="accordion-1 dropdown-header">I Have an LDS Account</h4>
+            <div class="accordion dropdown">
+              <p>Great! Let’s make sure your Membership Record Number (MRN) is connected to your LDS Account.</p>
+              <p>Log in at ldsaccount.lds.org, and select the “Membership” tab on the left.</p>
+              <p>If your MRN appears — you may proceed to #2 below.</p>
+              <p>If your MRN does not appear, enter it on the screen. Your MRN can be found on your temple recommend, individual ordinance summary, or through a ward clerk or other Church leaders.</p>
+              <sub><em>(Note: You may submit an application to Pathway without your MRN. However, your application will not be processed until you return to ldsaccount.lds.org and enter your MRN.)</em></sub>
+            </div>
+            <div class="h-rule"></div>
+            <h4 class="accordion-2 dropdown-header">I Do Not Have an LDS Account</h4>
+            <div class="accordion dropdown">
+              <p>No problem, you can easily create one. Go to ldsaccount.lds.org, and select “Register for an LDS Account.”</p>
+              <p>As part of the registration process, you will be asked for your Membership Record Number (MRN). Your MRN can be found on your temple recommend, individual ordinance summary, or through a ward clerk or other Church leaders.</p> 
+              <sub><em>(Note: You may submit an application to Pathway without your MRN. However, your application will not be processed until you return to ldsaccount.lds.org and enter your MRN.)</em></sub></div>
+              <div class="h-rule"></div>
+              <h4 class="accordion-3 dropdown-header">I Might Have an LDS Account &mdash; I'm Not Sure</h4>
+              <div class="accordion dropdown">
+                <p>OK, we can help. Go to ldsaccount.lds.org, and select “I have forgotten my username.” Choose an option provided. If you have an active LDS Account, the system will provide you with your username.</p>
+                <p>If you find out that you do have an LDS Account, select “I Have an LDS Account” from the options above, and follow the instructions.</p>
+                <p>If you do not have an LDS Account, select “I Do Not Have an LDS Account” from the options above, and follow the instructions.</p>
+              </div>
+            </div>
+          <div class="map_bg">
+          <div id="second" class="apply-header" >Select a Pathway Location &amp; Apply</div>
+          <div class="apply-subsection">
+            <p>Pathway is available in hundreds of locations worldwide. Follow these steps to submit an application:</p>
+            <ul>
+              <li>Search for a Pathway location near you.</li>
+              <li>Click the Pathway location you want to apply to.</li>
+            </ul>
+            <p><em>If the location is currently accepting applications, you will see a blue “Apply” button.</em></p>
+            <p><em>If the location is not accepting applications, contact the Pathway missionaries listed on the page to find out the next available start date.</em></p>
+          </div>
+          </div>
+
+          <!-- Start Deadline Widget -->
+            <link rel="stylesheet" type="text/css" href="https://byuipathway.github.io/deadlines-widget/css/main.css">
+            <div id="deadline_widget">
+              Loading JSON...
+            </div>
+          <!-- End Widget -->
+
+         </div>
       </div>
     </div>
+    <!-- Sidebar Start -->
+<div class="col-xs-6 col-sm-4 sidebar-offcanvas pull-right" id="sidebar" role="navigation">
+  <div class="pf-sidebar header NoAffix footnote" id="sideNav" role="complementary">
+		<ul class="nav pf-sidenav black">
+			<li class="active"><a href="/working-build/pages/join-pathway.html"><span class="caret"></span>Join Pathway</a>
+				<ul class="nav drop-down">
+					<li><a href="#AdmissionRequirements">Admission Requirements</a></li>
+					<li><a href="#ApplyToPathway">Apply to Pathway</a></li>
+				</ul>
+			</li>
+			<li><a href="#LocationFinderMap"><span class="caret"></span>Find a Location</a></li>
+		</ul>
+	</div>
+</div>
+<!-- End Sidebar -->
   </div>
 </div>
 
@@ -141,6 +219,12 @@
 <script src="/working-build/js/drawer.js"></script> 
 
 
+<script src="/working-build/js/accordion.js"></script>
+
+<script src="/working-build/js/drawer.js"></script>
+
+
+<script src="https://byuipathway.github.io/deadlines-widget/deadlines-accordion.js"></script>
 
 </body>
 </html>
