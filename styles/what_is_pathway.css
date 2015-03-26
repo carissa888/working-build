@@ -1247,3 +1247,13 @@ $page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;*
 
 .c-section {
   margin-left: 25px; }
+
+.icon-bullet {
+  position: relative;
+  display: block;
+  font-size: 100%;
+  font-weight: normal;
+  padding: 11px 0 15px 60px; }
+  .icon-bullet img.icon {
+    position: absolute;
+    left: 0; }
