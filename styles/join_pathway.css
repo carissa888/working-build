@@ -917,7 +917,7 @@ body {
     .apply-sect .apply-header:before {
       position: absolute;
       left: 0;
-      top: -2px;
+      top: 3px;
       display: block;
       background-color: #7fc7b6;
       font-size: 100%;
