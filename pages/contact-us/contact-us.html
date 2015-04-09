@@ -38,7 +38,7 @@
     <ul class="nav orange-bar">
       <li class="header-column visible-xs pull-left">&nbsp;</li>
       <li class="header-column pull-left"> <a id="pathway-logo" title="pathway logo" class="navbar-brand img-responsive hidden-xs" href="/working-build/"><span class="sr-only">Pathway: In Partnership With BYU-Idaho</span></a> <a id="pathway-mobile-logo" title="pathway mobile logo" class="center-block navbar-brand visible-xs" href="index.htm"><span class="sr-only">Pathway: In Partnership With BYU-Idaho</span></a></li>
-      <li class="header-column pull-right"> <a class="header_contact hidden-xs pull-left" href="/working-build/pages/advising-and-support.html">Contact Us <img src="/working-build/img/speechbubble.png" width="13" height="11" alt="speech"></a>
+      <li class="header-column pull-right"> <a class="header_contact hidden-xs pull-left" href="/working-build/pages/contact-us/have-a-question.html">Contact Us <img src="/working-build/img/speechbubble.png" width="13" height="11" alt="speech"></a>
        <form class="navbar-right pull-right ng-pristine ng-valid">
         <!-- Sign-in / User button -->
         <div class="btn-group">
@@ -103,28 +103,53 @@
 
 <!-- Start to the content area -->
 <div id="main-container" class="container">
-  <div class="row row-offcanvas row-offcanvas-right">
-    <div class="col-xs-12">
-      <div class="hero pf-page-header no-icon">
-        <h1 id="Standard">Have a Question? Let us Help.</h1>
-      </div>
-      <div class="pf-section no-icon">
-        <div class="contact-navigator">
-          <div class="contact-tab"><div class="tab-inner orange">Enrollment</div></div>
-          <div class="contact-tab"><div class="tab-inner turquoise">Tuition</div></div>
-          <div class="contact-tab"><div class="tab-inner red">After Pathway</div></div>
-          <div class="contact-tab"><div class="tab-inner teal">Courses &amp; Gatherings</div></div>
-          <div class="contact-tab"><div class="tab-inner green">Speaking Partners</div></div>
-        </div>
-        <div>
-          <h3>Other Topics</h3>
-        </div>
-        <div>
-          <h3>Need More Help</h3>
-        </div>
-      </div>
-    </div>
-</div>
+	<div class="row row-offcanvas row-offcanvas-right">
+		<div class="col-xs-12">
+			<div class="hero pf-page-header no-icon">
+				<h1 id="Standard">Contact Us</h1>
+			</div>
+			<div class="pf-section no-icon">
+				<form>	
+					<label>I am a </label>
+					<select name="user-type">
+						<option>Current Pathway Student</option>
+						<option>Prospective Pathway Student</option>
+						<option>Pathway Missionary</option>
+						<option>Priesthood/Ecclesiastical Leader</option>
+						<option>Institute Director</option>
+						<option>PEF/Self-Reliance Manager</option>
+						<option>Other</option>
+					</select>
+					<hr/>
+					<label>Please help me with </label>
+					<select name="help-type">
+						<option>Enrollment</option>
+						<option>Tuition</option>
+						<option>After Pathway</option>
+						<option>Courses</option>
+						<option>Speaking Partners</option>
+						<option>Gatherings</option>
+					</select>
+					<div>
+						<h3>Could these help?</h3>
+						<p>
+							<a href="#apply">How do I apply for Pathway?</a>
+							<a href="#deadline">I missed the application deadline. Can I still be admitted?</a>
+							<a href="#admission">When will I know if I am admitted?</a>
+						</p>
+						<div id="apply"></div>
+						<div id="deadline"></div>
+						<div id="admission"></div>
+					</div>
+				</form>
+				<hr/>
+				<h2>How would you like to contact us?</h2>
+				<a href=""><span id="Phone"></span></a>
+				<a href=""><span id="Email"></span></a>
+				<a href=""><span id="Chat" class="recommended"></span></a>
+			</div>
+		</div>
+	</div>
 </div>
 </div>
 

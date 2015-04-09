@@ -851,37 +851,21 @@ body {
 	width: 13px;
 	height: 20px;
 }*/
-#Phone {
-  display: inline-block;
-  background-image: url("../../img/contact-us/Phone.png");
-  height: 75px;
-  width: 75px; }
-
-#Email {
-  display: inline-block;
-  background-image: url("../../img/contact-us/Email.png");
-  height: 75px;
-  width: 75px; }
-
-#Chat {
-  display: inline-block;
-  background-image: url("../../img/contact-us/Chat.png");
-  height: 75px;
-  width: 75px; }
-
-.recommended {
-  background-image: url("../../img/contact-us/Recommended-Square.png"); }
-
 .contact-navigator {
   position: relative;
-  margin: 10px -8px;
+  margin: -1px -5px;
   overflow: hidden; }
   .contact-navigator .contact-tab {
     display: table;
     width: 20%;
     float: left;
     text-align: center;
-    padding: 0 8px; }
+    padding: 0 5px; }
+    .contact-navigator .contact-tab.active .tab-inner {
+      background: white !important;
+      color: black;
+      border-bottom: 0 !important;
+      height: 70px; }
     .contact-navigator .contact-tab .tab-inner {
       position: relative;
       display: table-cell;
@@ -893,7 +877,8 @@ body {
       line-height: 130%;
       height: 60px;
       vertical-align: middle;
-      font-weight: bold; }
+      font-weight: bold;
+      text-decoration: none; }
       .contact-navigator .contact-tab .tab-inner:after {
         content: "";
         display: block;
@@ -927,3 +912,18 @@ body {
         background: white;
         color: black;
         cursor: pointer; }
+
+.tab-content .tab-pane {
+  border: 1px solid black;
+  padding: 10px;
+  color: black; }
+  .tab-content .tab-pane.orange {
+    border-color: #f3ab1f; }
+  .tab-content .tab-pane.turquoise {
+    border-color: #1c818f; }
+  .tab-content .tab-pane.red {
+    border-color: #dc4831; }
+  .tab-content .tab-pane.teal {
+    border-color: #7fc7b6; }
+  .tab-content .tab-pane.green {
+    border-color: #a9c038; }
