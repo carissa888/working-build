@@ -916,6 +916,7 @@ body {
 .tab-content .tab-pane {
   border: 1px solid black;
   padding: 10px;
+<<<<<<< HEAD
   color: black;
   height: 180px; }
   .tab-content .tab-pane.orange {
@@ -930,6 +931,11 @@ body {
     .tab-content .tab-pane.orange h4 {
       color: #f3ab1f;
       text-transform: small-caps; }
+=======
+  color: black; }
+  .tab-content .tab-pane.orange {
+    border-color: #f3ab1f; }
+>>>>>>> f0e62f5ddd9e37a0262209070d2e46617553a21a
   .tab-content .tab-pane.turquoise {
     border-color: #1c818f; }
   .tab-content .tab-pane.red {
