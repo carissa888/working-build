@@ -851,7 +851,6 @@ body {
 	width: 13px;
 	height: 20px;
 }*/
-<<<<<<< HEAD
 .show-question {
   opacity: 0;
   z-index: 99999;
@@ -1028,28 +1027,6 @@ body {
 
 form div {
   width: 100%; }
-=======
-#Phone {
-  display: inline-block;
-  background-image: url("../../img/contact-us/Phone.png");
-  height: 75px;
-  width: 75px; }
-
-#Email {
-  display: inline-block;
-  background-image: url("../../img/contact-us/Email.png");
-  height: 75px;
-  width: 75px; }
-
-#Chat {
-  display: inline-block;
-  background-image: url("../../img/contact-us/Chat.png");
-  height: 75px;
-  width: 75px; }
-
-.recommended {
-  background-image: url("../../img/contact-us/Recommended-Square.png"); }
->>>>>>> f0e62f5ddd9e37a0262209070d2e46617553a21a
 
 .contact-navigator {
   position: relative;
