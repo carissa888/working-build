@@ -851,119 +851,90 @@ body {
 	width: 13px;
 	height: 20px;
 }*/
-.page-title {
-  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, serif;
-  color: #7fc7b6;
-  text-transform: uppercase;
-  letter-spacing: 0.09em;
-  font-size: 250%; }
-
-.main-content {
-  padding-right: 40px; }
-
-.icon-header {
+.contact-navigator {
   position: relative;
-  display: block;
-  font-size: 160%;
-  font-weight: normal;
-  padding: 15px 0 20px 60px; }
-  .icon-header .narrow-bold {
-    font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, serif;
-    font-weight: bold;
-    text-transform: uppercase; }
-  .icon-header img.icon {
-    position: absolute;
-    left: 0; }
-
-.section-header {
-  position: relative;
-  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, serif;
-  background-color: #dc4831;
-  text-transform: uppercase;
-  color: white;
-  font-size: 120%;
-  letter-spacing: 0.08em;
-  margin: 20px 0 20px 28px;
-  padding: 2px 20px; }
-  .section-header img {
-    position: absolute;
-    left: -28px; }
-    .section-header img.check {
-      top: -3px; }
-    .section-header img.page {
-      top: -5px; }
-
-.admissions-req {
-  padding-left: 70px;
-  margin-bottom: 30px; }
-  .admissions-req li {
-    margin-bottom: 10px; }
-
-.apply-sect {
-  padding-left: 50px; }
-  .apply-sect .map_bg {
-    background-image: url("/working-build/img/join-pathway/JoinPathway_Map.png");
-    background-repeat: no-repeat; }
-  .apply-sect .apply-header {
-    position: relative;
-    font-family: "Helvetica Neue", Helvetica, serif;
-    font-weight: bold;
-    color: #7fc7b6;
-    font-size: 150%;
-    padding-left: 42px;
-    letter-spacing: 0.08em;
-    padding-top: 5px;
-    padding-bottom: 5px; }
-    .apply-sect .apply-header:before {
-      position: absolute;
-      left: 0;
-      top: 3px;
-      display: block;
-      background-color: #7fc7b6;
-      font-size: 100%;
-      border-radius: 99px;
-      color: white;
-      width: 31px;
-      height: 31px;
-      padding: 1px 10px; }
-    .apply-sect .apply-header#first:before {
-      content: '1'; }
-    .apply-sect .apply-header#second:before {
-      content: '2'; }
-  .apply-sect .apply-subsection {
-    padding-left: 42px;
-    margin-bottom: 20px; }
-    .apply-sect .apply-subsection .dropdown-header {
+  margin: -1px -5px;
+  overflow: hidden; }
+  .contact-navigator .contact-tab {
+    display: table;
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 0 5px; }
+    .contact-navigator .contact-tab.active .tab-inner {
+      background: white !important;
+      color: black;
+      border-bottom: 0 !important;
+      height: 70px; }
+    .contact-navigator .contact-tab .tab-inner {
       position: relative;
+      display: table-cell;
+      border: black 1px solid;
       text-transform: uppercase;
-      font-size: 100%;
-      letter-spacing: 0.08em;
-      color: #7fc7b6;
-      padding-left: 23px;
-      cursor: pointer; }
-      .apply-sect .apply-subsection .dropdown-header:before {
+      color: white;
+      letter-spacing: .09em;
+      padding: 3px 5px 11px 5px;
+      line-height: 130%;
+      height: 60px;
+      vertical-align: middle;
+      font-weight: bold;
+      text-decoration: none; }
+      .contact-navigator .contact-tab .tab-inner:after {
         content: "";
+        display: block;
         position: absolute;
-        left: 0;
+        border: 7px transparent solid;
+        border-bottom-width: 0;
+        border-top-color: rgba(0, 0, 0, 0.4);
         width: 0;
         height: 0;
-        border: 7px solid transparent;
-        border-left: 12px solid #7fc7b6;
-        transition: all .3s;
-        -ms-transform-origin: 10% 50%;
-        /* IE 9 */
-        -webkit-transform-origin: 10% 50%;
-        /* Chrome, Safari, Opera */
-        transform-origin: 10% 50%; }
-      .apply-sect .apply-subsection .dropdown-header.active:before {
-        -ms-transform: rotate(90deg);
-        /* IE 9 */
-        -webkit-transform: rotate(90deg);
-        /* Chrome, Safari, Opera */
-        transform: rotate(90deg); }
-    .apply-sect .apply-subsection .dropdown {
-      font-size: 100%;
-      padding-left: 23px;
-      margin-bottom: 20px; }
-  .apply-sect .h-rule {
-    border-bottom: 2px #7fc7b6 solid; }
+        bottom: 4px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0; }
+      .contact-navigator .contact-tab .tab-inner.orange {
+        background: #f3ab1f;
+        border-color: #f3ab1f; }
+      .contact-navigator .contact-tab .tab-inner.turquoise {
+        background: #1c818f;
+        border-color: #1c818f; }
+      .contact-navigator .contact-tab .tab-inner.red {
+        background: #dc4831;
+        border-color: #dc4831; }
+      .contact-navigator .contact-tab .tab-inner.teal {
+        background: #7fc7b6;
+        border-color: #7fc7b6; }
+      .contact-navigator .contact-tab .tab-inner.green {
+        background: #a9c038;
+        border-color: #a9c038; }
+      .contact-navigator .contact-tab .tab-inner:hover {
+        background: white;
+        color: black;
+        cursor: pointer; }
+
+.tab-content .tab-pane {
+  border: 1px solid black;
+  padding: 10px;
+  color: black;
+  height: 180px; }
+  .tab-content .tab-pane.orange {
+    border-color: #f3ab1f; }
+    .tab-content .tab-pane.orange .apply-to-pathway {
+      background-image: url("/working-build/img/join-pathway/JoinPathway_ApplyToPathway.png");
+      background-repeat: no-repeat;
+      height: 100%; }
+    .tab-content .tab-pane.orange .link {
+      display: inline-block;
+      height: 30px; }
+    .tab-content .tab-pane.orange h4 {
+      color: #f3ab1f;
+      text-transform: small-caps; }
+  .tab-content .tab-pane.turquoise {
+    border-color: #1c818f; }
+  .tab-content .tab-pane.red {
+    border-color: #dc4831; }
+  .tab-content .tab-pane.teal {
+    border-color: #7fc7b6; }
+  .tab-content .tab-pane.green {
+    border-color: #a9c038; }
