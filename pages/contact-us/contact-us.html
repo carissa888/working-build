@@ -132,13 +132,13 @@
 					</select>
 					<div class="Hidden">
 						<h3>Could these help?</h3>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<div class="col-sm-6">
 							<p>
 								<a href="#apply">How do I apply for Pathway?</a> <br/><br/>
 								<a href="#admission">When will I know if I am admitted?</a>
 							</p>
 						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<div class="col-sm-6">
 							<p>
 								<a href="#deadline">I missed the application deadline. Can I still be admitted?</a>
 							</p>
@@ -152,9 +152,9 @@
 				<h2><span class="more-help"></span> How would you like to contact us?</h2>
 				<br/>
 				<div class="icons">
-				    <a href="#" class="iconic col-lg-4 col-md-4 col-sm-4 col-xs-4" id="Phone"><div><div id="Phone" class="icon-btn"></div></div></a>
-				    <a href="#" class="iconic col-lg-4 col-md-4 col-sm-4 col-xs-4"><div><div id="Email" class="icon-btn"></div></div></a>
-				    <a href="" class="iconic col-lg-4 col-md-4 col-sm-4 col-xs-4"><div class="recommended"><div id="Chat" class="icon-btn"></div></div></a>
+				    <a class="iconic col-sm-4 col-xs-12" id="Phone"><div><div id="Phone" class="icon-btn"></div></div></a>
+				    <a class="iconic col-sm-4 col-xs-12"><div><div id="Email" class="icon-btn"></div></div></a>
+				    <a class="iconic col-sm-4 col-xs-12"><div class="recommended"><div id="Chat" class="icon-btn"></div></div></a>
 				</div>
 				<div id="info-phone" class="show-phone">
 				    <div>
@@ -565,15 +565,6 @@
 		</div>
 	</div>
 </div>
-<script type="text/jquery">
-	$("#Phone").click(function(){
-		var d = document.getElementById("info-phone");
-		d.className = d.className + " on";
-	});
-	$("#info-phone .phone-close").click(function(){
-	    $("#info-phone").removeClass(" on");
-	});
-</script>
 
 
 <footer>
@@ -599,6 +590,8 @@
 
 <script src="/working-build/js/drawer.js"></script> 
 
+
+<script src="/working-build/js/contact_us.js"></script>
 
 
 </body>

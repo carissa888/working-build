@@ -63,7 +63,7 @@ img {
   background-color: #f3ab1f !important;
   height: 139px;
   border: none;
-  z-index: 5;
+  z-index: 100;
   border-radius: 0; }
 
 #pathway-mobile-logo {

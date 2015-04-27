@@ -945,7 +945,11 @@ body {
     top: 35%;
     left: 25%;
     background-color: white;
-    box-shadow: 5px 5px 10px #222; }
+    box-shadow: 5px 5px 10px #222;
+    display: block;
+    position: absolute;
+    left: 140px;
+    top: 247px; }
   #info-phone .numbers-box {
     background-color: red;
     color: white;
@@ -961,19 +965,19 @@ body {
 .icons {
   height: 160px; }
 
-.icon-btn {
-  margin: 10px; }
-
 .iconic {
   display: block;
   height: 150px; }
+  .iconic .icon-btn {
+    cursor: pointer; }
   .iconic .recommended {
     display: block;
-    border: solid 1px red;
     height: 120px;
     width: 120px;
     margin: 0;
     padding: 0; }
+    .iconic .recommended .icon-btn {
+      border: solid 1px red; }
   .iconic .recommended::after {
     content: "recommended";
     font-variant: small-caps;
@@ -992,29 +996,29 @@ body {
     background-image: url("/working-build/img/contact-us/Phone.png");
     display: block;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 100px;
-    width: 100px; }
-  .iconic #Phone:hover {
-    background-image: url("/working-build/img/contact-us/Phone_hover.png"); }
+    background-position: 50% 45%;
+    height: 110px;
+    width: 120px; }
+    .iconic #Phone:hover {
+      background-image: url("/working-build/img/contact-us/Phone_hover.png"); }
   .iconic #Email {
     background-image: url("/working-build/img/contact-us/Email.png");
     display: block;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 100px;
-    width: 100px; }
-  .iconic #Email:hover {
-    background-image: url("/working-build/img/contact-us/Email_hover.png"); }
+    background-position: 65% 61%;
+    height: 110px;
+    width: 120px; }
+    .iconic #Email:hover {
+      background-image: url("/working-build/img/contact-us/Email_hover.png"); }
   .iconic #Chat {
     background-image: url("/working-build/img/contact-us/Chat.png");
     display: block;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 100px;
-    width: 100px; }
-  .iconic #Chat:hover {
-    background-image: url("/working-build/img/contact-us/Chat_hover.png"); }
+    background-position: 50% 50%;
+    height: 110px;
+    width: 120px; }
+    .iconic #Chat:hover {
+      background-image: url("/working-build/img/contact-us/Chat_hover.png"); }
 
 .more-help {
   display: inline-block;
