@@ -111,35 +111,335 @@
 <div id="main-container" class="container">
 	<div class="row row-offcanvas row-offcanvas-right">
 		<div class="col-xs-12 col-sm-8 main-content">
-			<button type="button" onClick="open_side();" class="navbar-toggle sidebar-btn collapsed">
-				<img id="arrow-icon" src="/working-build/img/arrow.png" width="14" height="14" alt="arrow">
-			</button>
-			<div class="hero pf-page-header">
-				<img src="/working-build/img/wip/icons/standard.png" alt="standardLogo">
-				<h1 id="Standard" class="page-title">Standard Version</h1>
-				<p class="page-summary">For students who are proficient in English</p>
-			</div>
-			<div class="pf-section">
-				<div class="pf-page-header">
-					<img src="/working-build/img/wip/icons/piggy.png" alt="piggy">
-					<h2 id="CalculatingTuition" class="subheading">Calculate Tuition</h2>
-				</div>
-				<div class="main-content">
-					<p>Tuition is based on location and the number of BYU-Idaho course credits a student takes each semester.</p> 
-					<p class="p-heading3">COURSE CREDIT:</p>
-					<p class="info-block">  A measurement used to quantify the load of work for a specific course that enables universities to set a requirement to graduate.</p>
-					<p>Pathway standard version courses are either 2 or 3 credits each.</p>
-				</div>
-				<h3 class="p-heading red">Number of Online Credits per Semester</h3>
-				<img class="img-responsive img-space" src="/working-build/img/calculate-tuition/semesters_blue.png" alt="credits-per-semester" width="100%">
-				<img class="img-responsive img-space" src="/working-build/img/calculate-tuition/semesters_red.png" alt="credits-per-semester" width="100%">
-				<h3 class="p-heading red">Local Per Credit Tuition Cost</h3>
-				<!-- tuition widget goes here -->
-				[TUITION WIDGET GOES HERE]
-			</div>
-			<a href="/working-build/pages/what_is_pathway/l_version/cost.html" class="previous red"><< Cost</a>
-			<a href="/working-build/pages/what_is_pathway/l_version/degree.html" class="next red">Degree Options >></a>
-		</div>
+            <button type="button" onclick="open_side();" class="navbar-toggle sidebar-btn collapsed">
+                <img id="arrow-icon" src="/working-build/img/arrow.png" width="14" height="14" alt="arrow">
+            </button>
+            <div class="hero pf-page-header">
+                <img src="/working-build/img/wip/icons/standard.png" alt="standardLogo">
+                <h1 id="Standard" class="page-title">Standard Version</h1>
+                <p class="page-summary">For students who are proficient in English.</p>
+            </div>
+            <div class="pf-section">
+                <div class="pf-page-header">
+                    <img src="/working-build/img/wip/icons/piggy.png" alt="piggy">
+                    <h2 id="CalculatingTuition" class="subheading">Calculate Tuition</h2>
+                </div>
+                <div class="main-content">
+                    <p>Tuition is based on location and the number of BYU-Idaho course credits a student takes each semester.</p>
+
+                    <p class="p-heading3">COURSE CREDIT:</p>
+                    <p class="info-block">A measurement used to quantify the load of work for a specific course that enables universities to set a requirement to graduate.</p>
+
+                    <p>Pathway standard version courses are either 2 or 3 credits each.</p>
+
+                    <!-- <p>In the fall and winter semesters, Age 18-30 groups and Age 18+ groups complete 3 BYU-Idaho online credits at the local tuition rate and 2 institute credits at no charge. In spring semester, these students do not take an institute class, but instead complete 5 BYU-Idaho online credits.</p>
+				<p>Age 31+ groups complete 5 BYU-Idaho online credits in each of the 3 semesters.</p> -->
+                </div>
+
+                <h3 class="p-heading red">Number of Online Credits per Semester</h3>
+
+                <img class="img-responsive img-space" src="/working-build/img/calculate-tuition/semesters_blue.png" alt="credits-per-semester" width="100%">
+                <img class="img-responsive img-space" src="/working-build/img/calculate-tuition/semesters_red.png" alt="credits-per-semester" width="100%">
+
+                <h3 class="p-heading red">Local Per Credit Tuition Cost</h3>
+
+                <!-- tuition widget goes here -->
+<table id="PathwayTuition" style="width: 100%;">
+    <caption>Pathway Tuition in U.S. Dollars</caption>
+    <tbody><tr>
+        <th>Country</th>
+        <th>Per Credit</th>
+        <th>Pathway
+            <br>
+            (15 credits)</th>
+        <th>Online Certificate
+            <br>
+            (30 credits)</th>
+        <th>Online Associate 
+            <br>
+            (60 credits)</th>
+        <th>Online Bachelor
+            <br>
+            (120 credits)</th>
+    </tr>
+        <tr>
+            <td>Albania</td>
+            <td>$25</td>
+            <td>$375</td>
+            <td>$750</td>
+            <td>$1,500</td>
+            <td>$3,000</td>
+        </tr>
+        <tr>
+            <td>Argentina</td>
+            <td>$35</td>
+            <td>$525</td>
+            <td>$1,050</td>
+            <td>$2,100</td>
+            <td>$4,200</td>
+        </tr>
+        <tr>
+            <td>Australia</td>
+            <td>$60</td>
+            <td>$900</td>
+            <td>$1,800</td>
+            <td>$3,600</td>
+            <td>$7,200</td>
+        </tr>
+        <tr>
+            <td>Brazil</td>
+            <td>$35</td>
+            <td>$525</td>
+            <td>$1,050</td>
+            <td>$2,100</td>
+            <td>$4,200</td>
+        </tr>
+        <tr>
+            <td>Canada</td>
+            <td>$65</td>
+            <td>$975</td>
+            <td>$1,950</td>
+            <td>$3,900</td>
+            <td>$7,800</td>
+        </tr>
+        <tr>
+            <td>Chile</td>
+            <td>$35</td>
+            <td>$525</td>
+            <td>$1,050</td>
+            <td>$2,100</td>
+            <td>$4,200</td>
+        </tr>
+        <tr>
+            <td>Colombia</td>
+            <td>$30</td>
+            <td>$450</td>
+            <td>$900</td>
+            <td>$1,800</td>
+            <td>$3,600</td>
+        </tr>
+        <tr>
+            <td>Dominican Republic</td>
+            <td>$33</td>
+            <td>$488</td>
+            <td>$975</td>
+            <td>$1,950</td>
+            <td>$3,900</td>
+        </tr>
+        <tr>
+            <td>Ecuador</td>
+            <td>$30</td>
+            <td>$450</td>
+            <td>$900</td>
+            <td>$1,800</td>
+            <td>$3,600</td>
+        </tr>
+        <tr>
+            <td>El Salvador</td>
+            <td>$25</td>
+            <td>$378</td>
+            <td>$757</td>
+            <td>$1,513</td>
+            <td>$3,026</td>
+        </tr>
+        <tr>
+            <td>French Polynesia</td>
+            <td>$35</td>
+            <td>$525</td>
+            <td>$1,050</td>
+            <td>$2,100</td>
+            <td>$4,200</td>
+        </tr>
+        <tr>
+            <td>Ghana</td>
+            <td>$12</td>
+            <td>$180</td>
+            <td>$360</td>
+            <td>$720</td>
+            <td>$1,440</td>
+        </tr>
+        <tr>
+            <td>Guatemala</td>
+            <td>$25</td>
+            <td>$375</td>
+            <td>$750</td>
+            <td>$1,500</td>
+            <td>$3,000</td>
+        </tr>
+        <tr>
+            <td>Guyana</td>
+            <td>$20</td>
+            <td>$300</td>
+            <td>$600</td>
+            <td>$1,200</td>
+            <td>$2,400</td>
+        </tr>
+        <tr>
+            <td>Haiti</td>
+            <td>$10</td>
+            <td>$150</td>
+            <td>$300</td>
+            <td>$600</td>
+            <td>$1,200</td>
+        </tr>
+        <tr>
+            <td>Honduras</td>
+            <td>$20</td>
+            <td>$300</td>
+            <td>$600</td>
+            <td>$1,200</td>
+            <td>$2,400</td>
+        </tr>
+        <tr>
+            <td>Italy</td>
+            <td>$41</td>
+            <td>$620</td>
+            <td>$1,240</td>
+            <td>$2,479</td>
+            <td>$4,958</td>
+        </tr>
+        <tr>
+            <td>Jamaica</td>
+            <td>$20</td>
+            <td>$300</td>
+            <td>$600</td>
+            <td>$1,200</td>
+            <td>$2,400</td>
+        </tr>
+        <tr>
+            <td>Mexico</td>
+            <td>$35</td>
+            <td>$525</td>
+            <td>$1,050</td>
+            <td>$2,100</td>
+            <td>$4,200</td>
+        </tr>
+        <tr>
+            <td>Netherlands</td>
+            <td>$50</td>
+            <td>$744</td>
+            <td>$1,488</td>
+            <td>$2,975</td>
+            <td>$5,951</td>
+        </tr>
+        <tr>
+            <td>New Zealand</td>
+            <td>$35</td>
+            <td>$525</td>
+            <td>$1,050</td>
+            <td>$2,100</td>
+            <td>$4,200</td>
+        </tr>
+        <tr>
+            <td>Paraguay</td>
+            <td>$25</td>
+            <td>$375</td>
+            <td>$750</td>
+            <td>$1,500</td>
+            <td>$3,000</td>
+        </tr>
+        <tr>
+            <td>Peru</td>
+            <td>$30</td>
+            <td>$450</td>
+            <td>$900</td>
+            <td>$1,800</td>
+            <td>$3,600</td>
+        </tr>
+        <tr>
+            <td>Portugal</td>
+            <td>$33</td>
+            <td>$488</td>
+            <td>$976</td>
+            <td>$1,951</td>
+            <td>$3,902</td>
+        </tr>
+        <tr>
+            <td>Russia</td>
+            <td>$23</td>
+            <td>$345</td>
+            <td>$690</td>
+            <td>$1,380</td>
+            <td>$2,760</td>
+        </tr>
+        <tr>
+            <td>Samoa</td>
+            <td>$25</td>
+            <td>$375</td>
+            <td>$750</td>
+            <td>$1,500</td>
+            <td>$3,000</td>
+        </tr>
+        <tr>
+            <td>South Africa</td>
+            <td>$30</td>
+            <td>$450</td>
+            <td>$900</td>
+            <td>$1,800</td>
+            <td>$3,600</td>
+        </tr>
+        <tr>
+            <td>Suriname</td>
+            <td>$35</td>
+            <td>$525</td>
+            <td>$1,050</td>
+            <td>$2,100</td>
+            <td>$4,200</td>
+        </tr>
+        <tr>
+            <td>Ukraine</td>
+            <td>$15</td>
+            <td>$225</td>
+            <td>$450</td>
+            <td>$900</td>
+            <td>$1,800</td>
+        </tr>
+        <tr>
+            <td>United Kingdom</td>
+            <td>$46</td>
+            <td>$687</td>
+            <td>$1,375</td>
+            <td>$2,750</td>
+            <td>$5,500</td>
+        </tr>
+        <tr>
+            <td>United States</td>
+            <td>$65</td>
+            <td>$975</td>
+            <td>$1,950</td>
+            <td>$3,900</td>
+            <td>$7,800</td>
+        </tr>
+            <tr>
+            <td>United States (Navajo Nation)</td>
+            <td>$35</td>
+            <td>$525</td>
+            <td>$1,050</td>
+            <td>$2,100</td>
+            <td>$4,200</td>
+        </tr>
+        <tr>
+            <td>Uruguay</td>
+            <td>$35</td>
+            <td>$525</td>
+            <td>$1,050</td>
+            <td>$2,100</td>
+            <td>$4,200</td>
+        </tr>
+</tbody></table>
+<p>*Not inclusive of VAT, where applicable</p>
+<p>Tuition Formula:</p>
+<p class="formula"><span class="part1">Local per credit tuition amount</span> * <span class="part2">number of online credits per semester</span> = <span class="part3">total cost per semester</span></p>
+
+
+
+            </div>
+
+            <a href="/working-build/pages/what_is_pathway/s_version/cost.html" class="previous red">&lt;&lt; Cost</a>
+
+            <a href="/working-build/pages/what_is_pathway/s_version/degree.html" class="next red">Degree Options &gt;&gt;</a>
+
+        </div>
 		<!-- Sidebar Start -->
 <div class="col-xs-6 col-sm-4 pull-right" id="sidebar" role="navigation">
 	<div class="pf-sidebar" id="sideNav" role="complementary">
