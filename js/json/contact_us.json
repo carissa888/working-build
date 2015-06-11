@@ -1,0 +1,185 @@
+{
+    "recommended": "Chat",
+    "data": [
+        {
+            "Audience": "Current Pathway Student",
+            "Topics": [
+                {
+                    "Topic": "Enrollment",
+                    "Links": [
+                        {
+                            "Title": "How do I apply to Pathway?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#moreapply"
+                        },
+                        {
+                            "Title": "I missed the application deadline. Can I still be admitted?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#moreapply"
+                        },
+                        {
+                            "Title": "When will I know if I am admitted?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#moreapply"
+                        }
+                    ]
+                },
+                {
+                    "Topic": "Tuition",
+                    "Links": [
+                        {
+                            "Title": "How much is tuition for Pathway?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#morepayments"
+                        },
+                        {
+                            "Title": "When is tuition due?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#morepayments"
+                        },
+                        {
+                            "Title": "Is financial aid available to Pathway students?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#morefinancialaid"
+                        }
+                    ]
+                },
+                {
+                    "Topic": "After Pathway",
+                    "Links": [
+                        {
+                            "Title": "What degrees are available through the BYU-Idaho Online Degree Program?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#morebyuidegree"
+                        },
+                        {
+                            "Title": "What are the requirements for Pathway students who want to enter the BYU-Idaho Online Degree Program after Pathway?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#moreapplytobyui"
+                        },
+                        {
+                            "Title": "What is the tuition rate for the BYU-Idaho Online Degree Program?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#morebyuituition"
+                        }
+                    ]
+                },
+                {
+                    "Topic": "Courses & Gatherings",
+                    "Links": [
+                        {
+                            "Title": "What courses do I take during Pathway?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#morepathwaycourses"
+                        },
+                        {
+                            "Title": "Which institute courses do 18-30-year-old Pathway students take each semester during Pathway?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#morepathwaycourses"
+                        },
+                        {
+                            "Title": "Am I required to go to the Pathway gatherings?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#moregatherings"
+                        }
+                    ]
+                },
+                {
+                    "Topic": "Speaking Partners",
+                    "Links": [
+                        {
+                            "Title": "I am a student in Pathway's L Version. How do I find a speaking partner?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#morefindingpartner"
+                        },
+                        {
+                            "Title": "I need an alternate assignment - how do I get one?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#morealternateassignments"
+                        },
+                        {
+                            "Title": "How do I qualify for an alternate assignment?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#morealternateassignments"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Audience": "Prospective Pathway Student",
+            "Topics": [
+                {
+                    "Topic": "Enrollment",
+                    "Links": [
+                        {
+                            "Title": "How do I apply to Pathway?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#moreapply"
+                        },
+                        {
+                            "Title": "I missed the application deadline. Can I still be admitted?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#moreapply"
+                        },
+                        {
+                            "Title": "When will I knoww if I am admitted?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#moreapply"
+                        }
+                    ]
+                },
+                {
+                    "Topic": "Tuition",
+                    "Links": [
+                        {
+                            "Title": "How much is tuition for Pathway?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#morepayments"
+                        },
+                        {
+                            "Title": "When is tuition due?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#morepayments"
+                        },
+                        {
+                            "Title": "Is financial aid available to Pathway students?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#morefinancialaid"
+                        }
+                    ]
+                },
+                {
+                    "Topic": "After Pathway",
+                    "Links": [
+                        {
+                            "Title": "What degrees are available through the BYU-Idaho Online Degree Program?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#morebyuidegree"
+                        },
+                        {
+                            "Title": "What are the requirements for Pathway students who want to enter the BYU-Idaho Online Degree Program after Pathway?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#moreapplytobyui"
+                        },
+                        {
+                            "Title": "What is the tuition rate for the BYU-Idaho Online Degree Program?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#morebyuituition"
+                        }
+                    ]
+                },
+                {
+                    "Topic": "Courses & Gatherings",
+                    "Links": [
+                        {
+                            "Title": "What courses do I take during Pathway?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#morepathwaycourses"
+                        },
+                        {
+                            "Title": "Which institute courses do 18-30-year-old Pathway students take each semester during Pathway?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#morepathwaycourses"
+                        },
+                        {
+                            "Title": "Am I required to go to the Pathway gatherings?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#moregatherings"
+                        }
+                    ]
+                },
+                {
+                    "Topic": "Speaking Partners",
+                    "Links": [
+                        {
+                            "Title": "I am a student in Pathway's L Version. How do I find a speaking partner?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#morefindingpartner"
+                        },
+                        {
+                            "Title": "I need an alternate assignment - how do I get one?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#morealternateassignments"
+                        },
+                        {
+                            "Title": "How do I qualify for an alternate assignment?",
+                            "URL": "/working-build/pages/contact-us/self-help-page.html/#morealternateassignments"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
