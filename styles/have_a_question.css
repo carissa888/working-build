@@ -23,6 +23,9 @@
 .darkgreen {
   color: #6C7D2A; }
 
+.orange {
+  color: #f3ab1f; }
+
 body {
   color: #222; }
 
@@ -56,6 +59,9 @@ img {
 
 .darkgreen {
   color: #6C7D2A; }
+
+.orange {
+  color: #f3ab1f; }
 
 /****** Header ******/
 .pathway-header {
@@ -403,6 +409,9 @@ footer {
 
 .darkgreen {
   color: #6C7D2A; }
+
+.orange {
+  color: #f3ab1f; }
 
 html, body {
   height: 100%; }
@@ -908,6 +917,9 @@ body {
       .contact-navigator .contact-tab .tab-inner.green {
         background: #a9c038;
         border-color: #a9c038; }
+      .contact-navigator .contact-tab .tab-inner.navy_blue {
+        background: #173e6b;
+        border-color: #173e6b; }
       .contact-navigator .contact-tab .tab-inner:hover {
         background: white;
         color: black;
@@ -915,26 +927,160 @@ body {
 
 .tab-content .tab-pane {
   border: 1px solid black;
-  padding: 10px;
-  color: black;
-  height: 180px; }
+  overflow: hidden;
+  padding: 20px; }
+  .tab-content .tab-pane .img-tab {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px; }
+  .tab-content .tab-pane a {
+    display: inline-block;
+    width: 100%;
+    color: #222; }
+  .tab-content .tab-pane .sub-tab {
+    padding-right: 0;
+    margin-right: 0; }
+    .tab-content .tab-pane .sub-tab a {
+      padding: 10px; }
+      .tab-content .tab-pane .sub-tab a .italic {
+        font-style: italic;
+        font-size: 80%; }
+    .tab-content .tab-pane .sub-tab .arrow {
+      display: inline-block;
+      border-style: solid;
+      border-width: 6px 7px;
+      height: 0;
+      width: 0;
+      opacity: 0; }
+    .tab-content .tab-pane .sub-tab a.active .arrow {
+      opacity: 100; }
+  .tab-content .tab-pane .last-tab {
+    padding: 20px 30px;
+    min-height: 250px; }
+    .tab-content .tab-pane .last-tab a {
+      display: block;
+      margin: 15px 0; }
+    .tab-content .tab-pane .last-tab .bold {
+      text-transform: uppercase;
+      font-size: 80%;
+      font-weight: bold; }
+      .tab-content .tab-pane .last-tab .bold:last-child {
+        text-decoration: underline; }
+  .tab-content .tab-pane h4 {
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 11px; }
   .tab-content .tab-pane.orange {
     border-color: #f3ab1f; }
-    .tab-content .tab-pane.orange .apply-to-pathway {
-      background-image: url("/working-build/img/join-pathway/JoinPathway_ApplyToPathway.png");
-      background-repeat: no-repeat;
-      height: 100%; }
-    .tab-content .tab-pane.orange .link {
-      display: inline-block;
-      height: 30px; }
-    .tab-content .tab-pane.orange h4 {
-      color: #f3ab1f;
-      text-transform: small-caps; }
+    .tab-content .tab-pane.orange .bold {
+      color: #f3ab1f; }
+    .tab-content .tab-pane.orange #enrollment-icon {
+      background-image: url("/working-build/img/contact-us/Have-a-Question/Enrollment-Icon.png"); }
+    .tab-content .tab-pane.orange .sub-tab a.active {
+      background-color: #fbe5ba; }
+    .tab-content .tab-pane.orange .sub-tab .arrow {
+      border-color: transparent transparent transparent #f3ab1f; }
+    .tab-content .tab-pane.orange .last-tab {
+      background-color: #fbe5ba; }
   .tab-content .tab-pane.turquoise {
     border-color: #1c818f; }
+    .tab-content .tab-pane.turquoise .bold {
+      color: #1c818f; }
+    .tab-content .tab-pane.turquoise #tuition-icon {
+      background-image: url("/working-build/img/contact-us/Have-a-Question/Tuition-Icon.png"); }
+    .tab-content .tab-pane.turquoise .sub-tab a.active {
+      background-color: #6cd4e2; }
+    .tab-content .tab-pane.turquoise .sub-tab .arrow {
+      border-color: transparent transparent transparent #1c818f; }
+    .tab-content .tab-pane.turquoise .last-tab {
+      background-color: #6cd4e2; }
   .tab-content .tab-pane.red {
     border-color: #dc4831; }
+    .tab-content .tab-pane.red .bold {
+      color: #dc4831; }
+    .tab-content .tab-pane.red #after-pathway-icon {
+      background-image: url("/working-build/img/contact-us/Have-a-Question/After-Pathway-Icon.png"); }
+    .tab-content .tab-pane.red .sub-tab a.active {
+      background-color: #f4c4bc; }
+    .tab-content .tab-pane.red .sub-tab .arrow {
+      border-color: transparent transparent transparent #dc4831; }
+    .tab-content .tab-pane.red .last-tab {
+      background-color: #f4c4bc; }
   .tab-content .tab-pane.teal {
     border-color: #7fc7b6; }
+    .tab-content .tab-pane.teal .bold {
+      color: #3c8a78; }
+    .tab-content .tab-pane.teal #courses-and-gatherings-icon {
+      background-image: url("/working-build/img/contact-us/Have-a-Question/Courses-&-Gatherings-Icon.png"); }
+    .tab-content .tab-pane.teal .sub-tab a.active {
+      background-color: #d8eee9; }
+    .tab-content .tab-pane.teal .sub-tab .arrow {
+      border-color: transparent transparent transparent #3c8a78; }
+    .tab-content .tab-pane.teal .last-tab {
+      background-color: #d8eee9; }
   .tab-content .tab-pane.green {
     border-color: #a9c038; }
+    .tab-content .tab-pane.green .bold {
+      color: #a9c038; }
+    .tab-content .tab-pane.green #speaking-partners-icon {
+      background-image: url("/working-build/img/contact-us/Have-a-Question/Speaking-Partners-Icon.png"); }
+    .tab-content .tab-pane.green .sub-tab a.active {
+      background-color: #e4ecbe; }
+    .tab-content .tab-pane.green .sub-tab .arrow {
+      border-color: transparent transparent transparent #a9c038; }
+    .tab-content .tab-pane.green .last-tab {
+      background-color: #e4ecbe; }
+
+.other-topics-icon {
+  display: block;
+  background-image: url("/working-build/img/contact-us/Other-Topics.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+  width: 50px; }
+
+.secondary-section {
+  border-top: 1px solid black;
+  position: relative;
+  margin: 50px 0 11px 75px;
+  padding-top: 30px;
+  color: #222; }
+  .secondary-section h3 {
+    display: block;
+    position: absolute;
+    top: -8px;
+    text-transform: uppercase;
+    font-size: 125%;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background: white;
+    margin: 0;
+    padding-right: 15px; }
+  .secondary-section ul {
+    list-style: none; }
+    .secondary-section ul li {
+      line-height: 250%;
+      color: #222; }
+      .secondary-section ul li a {
+        color: #222; }
+  .secondary-section .side-icon {
+    position: absolute;
+    top: -25px;
+    left: -60px; }
+
+.more-help-header {
+  display: block;
+  position: relative; }
+  .more-help-header .more-help {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin: 30px 0 30px 60px; }
+
+.more-help-icon {
+  display: block;
+  background-image: url("/working-build/img/contact-us/Need-More-Help.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+  width: 50px; }
