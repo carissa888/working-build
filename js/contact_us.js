@@ -33,8 +33,14 @@ $("#countryselect").change(function(){
 $("#user-type").change(function() {
 	var value = $(this).val();
 
-	//After first change remove the help-type reminded to select audience
-	$("#help-type option[data-temp-id='chooseaud']").remove();
+	if ($(this).val() != "--") {
+		//After first change remove the help-type reminded to select audience
+		$("#help-type option[data-temp-id='chooseaud']").hide();
+	} else {
+		//After first change remove the help-type reminded to select audience
+		$("#help-type option[data-temp-id='chooseaud']").show();
+		$("#help-type option[data-temp-id='database']").remove();
+	};
 	//hide self help suggestions when changing audience
 	$("#selfhelp").addClass("hidden");
 	//reset topic dropdown
