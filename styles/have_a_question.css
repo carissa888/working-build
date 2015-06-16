@@ -989,11 +989,11 @@ body {
     .tab-content .tab-pane.turquoise #tuition-icon {
       background-image: url("/working-build/img/contact-us/Have-a-Question/Tuition-Icon.png"); }
     .tab-content .tab-pane.turquoise .sub-tab a.active {
-      background-color: #6cd4e2; }
+      background-color: #c9dee1; }
     .tab-content .tab-pane.turquoise .sub-tab .arrow {
       border-color: transparent transparent transparent #1c818f; }
     .tab-content .tab-pane.turquoise .last-tab {
-      background-color: #6cd4e2; }
+      background-color: #c9dee1; }
   .tab-content .tab-pane.red {
     border-color: #dc4831; }
     .tab-content .tab-pane.red .bold {
