@@ -23,6 +23,9 @@
 .darkgreen {
   color: #6C7D2A; }
 
+.orange {
+  color: #f3ab1f; }
+
 body {
   color: #222; }
 
@@ -56,6 +59,9 @@ img {
 
 .darkgreen {
   color: #6C7D2A; }
+
+.orange {
+  color: #f3ab1f; }
 
 /****** Header ******/
 .pathway-header {
@@ -403,6 +409,9 @@ footer {
 
 .darkgreen {
   color: #6C7D2A; }
+
+.orange {
+  color: #f3ab1f; }
 
 html, body {
   height: 100%; }
@@ -1182,10 +1191,57 @@ $page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;*
 
 /* Styles Here */
 h1 {
-  margin-top: 0; }
+  margin-top: 0;
+  margin-bottom: 35px; }
 
 h5 {
-  margin: 23px 0 0 0;
+  margin-top: 40px;
   font-size: 90%;
   letter-spacing: 0.09em;
   text-transform: uppercase; }
+
+hr {
+  margin: 0; }
+
+.pf-page-header {
+  display: none; }
+  .pf-page-header img {
+    margin-top: 0; }
+  .pf-page-header.show {
+    display: block; }
+
+.pf-section {
+  display: none; }
+  .pf-section.show {
+    display: block; }
+
+.accordion-heading {
+  display: block;
+  position: relative;
+  margin: 20px 0 5px 0;
+  cursor: pointer;
+  padding-left: 15px; }
+  .accordion-heading:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 4px;
+    height: 0;
+    width: 0;
+    border: 5px solid transparent;
+    border-left-color: black;
+    border-right-width: 0;
+    transition: -ms-transform .5s, -webkit-transform .5s, transform .5s; }
+  .accordion-heading.active:before {
+    -ms-transform: rotate(90deg);
+    /* IE 9 */
+    -webkit-transform: rotate(90deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(90deg); }
+  .accordion-heading:hover {
+    text-decoration: underline; }
+
+.answer {
+  padding: 8px 0 10px 15px;
+  border-bottom: 1px #222 solid; }
