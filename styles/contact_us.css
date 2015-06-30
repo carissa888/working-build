@@ -1018,17 +1018,24 @@ body {
   position: relative; }
   .info-email .icon {
     display: block; }
+  .info-email input[type=submit] {
+    background-color: #1c818f; }
 
 .info-phone .icon img {
   display: block;
   padding: 0 8px 7px 8px; }
-.info-phone .numbers-box {
+.info-phone .numbers-title {
   display: block;
   background-color: red;
   color: white;
   font-size: 80%;
-  padding: 3px 15px;
+  padding: 5px 20px;
   text-transform: uppercase; }
+.info-phone .numbers-box {
+  border: 1px solid #dc4831;
+  padding: 11px 20px; }
+.info-phone .phone-list {
+  margin-bottom: 30px; }
 .info-phone .bold {
   font-weight: bold; }
 .info-phone .italic {
