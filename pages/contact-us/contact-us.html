@@ -29,7 +29,7 @@
 	<!-- Bootstrap Core CSS -->
 	<link href="/working-build/dist/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Page Specific Stylesheet -->
-	<link href="/working-build/styles/contact_us.css" rel="stylesheet">
+	<link href="/working-build/styles/help.css" rel="stylesheet">
 </head>
 <body>
 <!-- Header Start -->
@@ -38,7 +38,7 @@
     <ul class="nav orange-bar">
       <li class="header-column visible-xs pull-left">&nbsp;</li>
       <li class="header-column pull-left"> <a id="pathway-logo" title="pathway logo" class="navbar-brand img-responsive hidden-xs" href="/working-build/"><span class="sr-only">Pathway: In Partnership With BYU-Idaho</span></a> <a id="pathway-mobile-logo" title="pathway mobile logo" class="center-block navbar-brand visible-xs" href="index.htm"><span class="sr-only">Pathway: In Partnership With BYU-Idaho</span></a></li>
-      <li class="header-column pull-right"> <a class="header_contact hidden-xs pull-left" href="/working-build/pages/contact-us/have-a-question.html">Contact Us <img src="/working-build/img/speechbubble.png" width="13" height="11" alt="speech"></a>
+      <li class="header-column pull-right"> <a class="header_contact hidden-xs pull-left" href="/working-build/pages/contact-us/help.html">Contact Us <img src="/working-build/img/speechbubble.png" width="13" height="11" alt="speech"></a>
        <form class="navbar-right pull-right ng-pristine ng-valid">
         <!-- Sign-in / User button -->
         <div class="btn-group">
@@ -91,9 +91,9 @@
         <div id="breadCrumb" class="breadCrumb module">
             <ul>
                 <li class="first"><a href="/working-build/">Home</a></li>
-                <li  class="last" >Contact Us</li>
+                <li ><a href="/working-build/pages/contact-us/help.html">Help</a></li>
                 
-                <li class="last"></li> 
+                <li class="last">Contact Us</li> 
             </ul>
         </div>
     </div>
@@ -102,7 +102,7 @@
 
 
 <!-- Start to the content area -->
-<div id="main-container" class="container">
+<div id="main-container" class="container contact-us-page">
 	<div class="row row-offcanvas row-offcanvas-right">
 		<div class="col-xs-12">
 			<div class="hero pf-page-header no-icon">
@@ -190,16 +190,16 @@
 					<div id="contactmethodicons" id="icons" class="icons">
 						<a class="iconic col-sm-4 col-xs-12"><div><div id="Phone" class="icon-btn"></div></div></a>
 						<a class="iconic col-sm-4 col-xs-12"><div><div id="Email" class="icon-btn"></div></div></a>
-						<a class="iconic col-sm-4 col-xs-12"><div><div id="Chat" class="icon-btn"></div></div></a>
+						<a class="iconic col-sm-4 col-xs-12" target="_blank" href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=preChatSurveyContent&amp;site=1132447&amp;sessionkey=H5422877094638984895-f12a14678dad4163b62cfb3927ead5abK16291329&amp;survey=Pre-Chat"><div><div id="Chat" class="icon-btn"></div></div></a>
 					</div>
 
 					<div id="info-phone" class="info-phone col-xs-12 hidden">
 						<div class="icon col-sm-2 col-md-offset-1"> <img src="/working-build/img/contact-us/Phone_hover.png"><a class="btn btn-default back-btn" href="#">&lt;&lt; Back</a></div>
 
 						<div class="col-md-6 col-sm-10 phone-list">
-							<div class="numbers-title">phone numbers</div>
-							<div class="numbers-box">
-								<span class="bold">208-496-9898 or <br/>1-855-994-6721 </span><span class="small italic">(US toll free)</span>
+<!-- 							<div class="numbers-title">phone numbers</div>
+ -->							<div class="numbers-box">
+								<span class="bold">+1 208-496-9898 or <br/>1-855-994-6721 </span><span class="small italic">(US toll free)</span>
 								<br/><br/>
 								<span class="bold">Monday-Friday, <br/>7 a.m.-7 p.m. (Mountain Time) </span><br/><span class="italic small">Closed Tuesdays &amp; Thursdays from 2-3 p.m. </span>
 							</div>
@@ -223,7 +223,10 @@
 							<input class="form-control" type="text" name="emailaddress" required /><br/>
 							<label>Country</label><br/>
 							<select class="form-control" id="countryselect" name="country">
-								<option value="none" selected>Select Country</option>
+								<option selected="selected">--</option>
+								<option data-temp-id="loading" disabled="disabled">Loading...</option>
+<!-- 								<option value="none" selected>Select Country</option>
+								<option value="AK">Abkhasia</option>
 								<option value="AF">Afghanistan</option>
 								<option value="AX">Åland Islands</option>
 								<option value="AL">Albania</option>
@@ -472,7 +475,7 @@
 								<option value="EH">Western Sahara</option>
 								<option value="YE">Yemen</option>
 								<option value="ZM">Zambia</option>
-								<option value="ZW">Zimbabwe</option>
+								<option value="ZW">Zimbabwe</option> -->
 							</select><br/>
 							<div id="stateselect" class="hidden">
 								<label>State</label><br/>
@@ -534,12 +537,13 @@
 							<label>City</label><br/>
 							<input class="form-control" type="text" name="city" /><br/>
 							<label>Phone Number *</label><br/>
-							<label>+ </label><input class="form-control" type="tel" name="phonenumber" required /><br/>
+							<input class="form-control" type="text" name="countrycode" id="countrycode" />
+							<input class="form-control" type="tel" name="phonenumber" required /><br/><br/>
 							<label>Subject</label><br/>
 							<input class="form-control" type="text" name="subject" size="50" /><br/>
 							<label>Comment/Question</label><br/>
 							<textarea class="form-control" name="comment" rows="15" cols="50"></textarea><br/>
-							<input class="btn btn-default" type="submit" />
+							<input class="btn btn-default" type="submit" value="Submit"/>
 						</form>
 					</div>
 				</div>

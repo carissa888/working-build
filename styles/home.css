@@ -23,6 +23,9 @@
 .darkgreen {
   color: #6C7D2A; }
 
+.orange {
+  color: #f3ab1f; }
+
 body {
   color: #222; }
 
@@ -57,13 +60,16 @@ img {
 .darkgreen {
   color: #6C7D2A; }
 
+.orange {
+  color: #f3ab1f; }
+
 /****** Header ******/
 .pathway-header {
   padding: 0px;
   background-color: #f3ab1f !important;
   height: 139px;
   border: none;
-  z-index: 100;
+  z-index: 5;
   border-radius: 0; }
 
 #pathway-mobile-logo {
@@ -496,6 +502,9 @@ footer {
 
 .darkgreen {
   color: #6C7D2A; }
+
+.orange {
+  color: #f3ab1f; }
 
 .main_carousel {
   padding-top: 29px;
