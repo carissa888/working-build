@@ -23,7 +23,7 @@ $(".back-btn").click(function(){
 $("#countryselect").change(function(){
 	console.log($(this).val());
 
-    if ($(this).val() == "US") {
+    if ($(this).val() == "United States") {
     	$("#stateselect").removeClass("hidden");
     } else {
     	$("#stateselect").addClass("hidden");
@@ -83,7 +83,7 @@ $("#help-type").change(function(){
 					$("#selfHelpList [data-temp-id='database']").remove();
 					//populate the topics selection dropdown
 					$.each(val2.Links, function(k, v) {
-						$("#selfHelpList").append("<div data-temp-id='database' class='item'><a href='" + v.URL + "'>" + v.Title + "</a></div>")
+						$("#selfHelpList").append("<div data-temp-id='database' class='item'><a target='_blank' href='" + v.URL + "'>" + v.Title + "</a></div>")
 					});
 					return false;
 				}
@@ -95,12 +95,29 @@ $("#help-type").change(function(){
 
 $("#countryselect").change(function(){
 	var country = $("#countryselect").val();
+	console.log($("#countryselect"));
 	$.each( JSONCountryCode, function(key5, val5) {
 		if (country === val5.CountryName) {
-			console.log(val5.CountryCode);
 			$("#countrycode").val(val5.CountryCode);
 		}
 	});
+});
+
+$("[required]").change(function(){
+	var filled = true;
+
+	$("[required]").each(function() {
+		if ($(this).val() == "") {
+			filled = false;
+		}
+	});
+	if (filled != false) {
+		$("[type=submit]").removeAttr("disabled");		
+	}
+	else 
+	{
+		$("[type=submit]").attr("disabled", "");		
+	}
 });
 
 $('document').ready(function() {
