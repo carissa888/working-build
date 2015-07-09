@@ -1589,6 +1589,10 @@ $page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;*
   font-style: italic; }
 .contact-us-page .info-phone .small {
   font-size: 10px; }
+.contact-us-page .lds-login img {
+  width: 127px;
+  margin-left: 14px;
+  margin-top: 10px; }
 
 .self-help-page {
   min-height: 41%;

@@ -110,16 +110,16 @@
 			</div>
 			<div class="pf-section no-icon">
 				<div class="select-section bottom-border">
-					<span>I am a </span>
+					<span>I am a/an </span>
 					<select class="form-control" id="user-type">
 						<option selected="selected">--</option>
 						<option data-temp-id="loading" disabled="disabled">Loading...</option>
 					</select>
 				</div>
 
-				<div class="select-section bottom-border">
-					<span id="login-message">Please Login: </span>
-					<a href="#"><img src="/working-build/img/LDS_account_button.png"></a>
+				<div id="LDS-Login-Prompt" class="select-section bottom-border hidden">
+					<span id="login-message">Please login with your LDS Account to continue: </span><br/>
+					<a class="lds-login" href="?LDS_ACCOUNT_LOGIN"><img src="/working-build/img/LDS_account_button.png"></a>
 				</div>
 
 				<div id="topic" class="select-section bottom-border">

@@ -51,6 +51,13 @@ $("#user-type").change(function() {
 	$.each(JSONdata, function(key, val) {
 		//find the audience selected
 		if (val.Audience == value) {
+			console.log(val.LDS_Credentials);
+			if (val.LDS_Credentials == true) {
+				$("#LDS-Login-Prompt").removeClass("hidden");
+				$("#login-message").html(val.Audience + ", please login with your LDS Account to continue:");
+			} else {
+				$("#LDS-Login-Prompt").addClass("hidden");
+			};
 			//remove any previous populated values
 			$("#help-type option[data-temp-id='database']").remove();
 			//populate the topics selection dropdown
