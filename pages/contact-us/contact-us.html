@@ -112,7 +112,7 @@
 				<div class="select-section bottom-border">
 					<span>I am a/an </span>
 					<select class="form-control" id="user-type">
-						<option selected="selected">--</option>
+						<option value="null" selected="selected">--</option>
 						<option data-temp-id="loading" disabled="disabled">Loading...</option>
 					</select>
 				</div>
@@ -125,7 +125,7 @@
 				<div id="topic" class="select-section bottom-border">
 					<span>Please help me with </span>
 					<select class="form-control" id="help-type">
-						<option data-temp-id="null" selected="selected">--</option>
+						<option value="null" data-temp-id="null" selected="selected">--</option>
 						<option data-temp-id="chooseaud" disabled="disabled">Please choose an audience above...</option>
 					</select>
 
@@ -173,8 +173,11 @@
 							<input class="form-control" type="text" name="lastname" required /><br/>
 							<label>First Name *</label><br/>
 							<input class="form-control" type="text" name="firstname" required /><br/>
-							<label>Pathway ID # *</label><br/>
-							<input class="form-control" type="text" name="pathwayid" required /><br/>
+							<div id="pathwayid" class="hidden">
+								<label>Pathway ID # *</label><br/>
+								<input class="form-control" type="text" name="pathwayid" required />
+								<br/>
+							</div>
 							<label>Email Address *</label><br/>
 							<input class="form-control" type="text" name="emailaddress" required /><br/>
 							<label>Country</label><br/>
