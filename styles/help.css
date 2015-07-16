@@ -1195,7 +1195,7 @@ $page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;*
     margin: 16px 0; }
   .help-page .contact-navigator {
     position: relative;
-    margin: -1px -5px;
+    margin: -1px -1px -1px 0;
     overflow: hidden; }
     .help-page .contact-navigator .contact-tab {
       display: table;
@@ -1204,6 +1204,10 @@ $page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;*
       text-align: center;
       padding: 0 5px;
       margin-bottom: 0; }
+      .help-page .contact-navigator .contact-tab:first-child {
+        padding-left: 0; }
+      .help-page .contact-navigator .contact-tab:last-child {
+        padding-right: 0; }
       .help-page .contact-navigator .contact-tab.active .tab-inner {
         background: white !important;
         color: black;
@@ -1331,8 +1335,8 @@ $page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;*
       border-color: #dc4831; }
       .help-page .tab-content .tab-pane.red .bold {
         color: #dc4831; }
-      .help-page .tab-content .tab-pane.red #after-pathway-icon {
-        background-image: url("/working-build/img/contact-us/Have-a-Question/After-Pathway-Icon.png"); }
+      .help-page .tab-content .tab-pane.red #courses-and-gatherings-icon {
+        background-image: url("/working-build/img/contact-us/Have-a-Question/Courses-&-Gatherings-Icon.png"); }
       .help-page .tab-content .tab-pane.red .sub-tab a.active {
         background-color: #f4c4bc; }
       .help-page .tab-content .tab-pane.red .sub-tab .arrow {
@@ -1343,8 +1347,8 @@ $page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;*
       border-color: #7fc7b6; }
       .help-page .tab-content .tab-pane.teal .bold {
         color: #3c8a78; }
-      .help-page .tab-content .tab-pane.teal #courses-and-gatherings-icon {
-        background-image: url("/working-build/img/contact-us/Have-a-Question/Courses-&-Gatherings-Icon.png"); }
+      .help-page .tab-content .tab-pane.teal #after-pathway-icon {
+        background-image: url("/working-build/img/contact-us/Have-a-Question/After-Pathway-Icon.png"); }
       .help-page .tab-content .tab-pane.teal .sub-tab a.active {
         background-color: #d8eee9; }
       .help-page .tab-content .tab-pane.teal .sub-tab .arrow {
@@ -1589,6 +1593,10 @@ $page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;*
   font-style: italic; }
 .contact-us-page .info-phone .small {
   font-size: 10px; }
+.contact-us-page .lds-login img {
+  width: 127px;
+  margin-left: 14px;
+  margin-top: 10px; }
 
 .self-help-page {
   min-height: 41%;
