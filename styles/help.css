@@ -1418,185 +1418,187 @@ $page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;*
     height: 50px;
     width: 50px; }
 
-.contact-us-page .bottom-border {
-  border-bottom: 1px solid black; }
-.contact-us-page .select-section {
-  padding: 20px 0; }
-.contact-us-page #user-type, .contact-us-page #help-type {
-  display: inline-block;
-  width: initial;
-  margin-left: 8px; }
-.contact-us-page .self-help-list .item {
-  width: 49%;
-  padding: 5px 20px 5px 0;
-  display: inline-block;
-  vertical-align: top; }
-.contact-us-page .self-help-header {
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #dc4831;
-  letter-spacing: 1px;
-  margin-top: 25px;
-  margin-bottom: 8px; }
-.contact-us-page .question-close {
-  display: none;
-  background: green;
-  color: white;
-  line-height: 24px;
-  position: absolute;
-  right: -12px;
-  text-align: center;
-  top: -10px;
-  width: 26px;
-  text-decoration: none;
-  font-weight: bold;
-  border: 1px solid #666;
-  border-radius: 12px; }
-  .contact-us-page .question-close:hover {
-    text-decoration: none;
-    color: white; }
-.contact-us-page .show-question {
-  display: none; }
-  .contact-us-page .show-question div {
-    float: left;
-    text-align: left;
-    position: relative;
-    background-color: white;
-    display: block; }
-    .contact-us-page .show-question div:only-child {
-      position: fixed;
-      top: 40%;
-      left: 25%;
-      opacity: 100%;
-      background-color: white;
-      width: 60%;
-      padding: 20px;
-      border-radius: 20px;
-      z-index: 100;
-      outline: 9999px solid rgba(0, 0, 0, 0.5); }
-    .contact-us-page .show-question div.hidden {
-      display: none; }
-  .contact-us-page .show-question .bold {
-    font-weight: bold; }
-  .contact-us-page .show-question .italic {
-    font-style: italic; }
-  .contact-us-page .show-question .small {
-    font-size: 10px; }
-  .contact-us-page .show-question .green {
-    color: green; }
-.contact-us-page .more-help-header {
-  display: block;
-  position: relative;
-  overflow: hidden; }
-  .contact-us-page .more-help-header .more-help {
+.contact-us-page {
+  padding-bottom: 1em; }
+  .contact-us-page .bottom-border {
+    border-bottom: 1px solid black; }
+  .contact-us-page .select-section {
+    padding: 20px 0; }
+  .contact-us-page #user-type, .contact-us-page #help-type {
+    display: inline-block;
+    width: initial;
+    margin-left: 8px; }
+  .contact-us-page .self-help-list .item {
+    width: 49%;
+    padding: 5px 20px 5px 0;
+    display: inline-block;
+    vertical-align: top; }
+  .contact-us-page .self-help-header {
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 0.12em;
-    margin: 30px 10px 30px 60px; }
-  .contact-us-page .more-help-header .more-help-icon {
-    display: block;
+    color: #dc4831;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    margin-bottom: 8px; }
+  .contact-us-page .question-close {
+    display: none;
+    background: green;
+    color: white;
+    line-height: 24px;
     position: absolute;
-    background-image: url("/working-build/img/contact-us/Need-More-Help.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 50px;
-    width: 50px;
-    top: 12px; }
-.contact-us-page .icons {
-  height: 160px; }
-.contact-us-page .iconic {
-  display: block;
-  height: 150px; }
-  .contact-us-page .iconic .icon-btn {
-    cursor: pointer;
-    margin: auto; }
-  .contact-us-page .iconic:hover {
-    text-decoration: none; }
-  .contact-us-page .iconic .recommended {
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 26px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #666;
+    border-radius: 12px; }
+    .contact-us-page .question-close:hover {
+      text-decoration: none;
+      color: white; }
+  .contact-us-page .show-question {
+    display: none; }
+    .contact-us-page .show-question div {
+      float: left;
+      text-align: left;
+      position: relative;
+      background-color: white;
+      display: block; }
+      .contact-us-page .show-question div:only-child {
+        position: fixed;
+        top: 40%;
+        left: 25%;
+        opacity: 100%;
+        background-color: white;
+        width: 60%;
+        padding: 20px;
+        border-radius: 20px;
+        z-index: 100;
+        outline: 9999px solid rgba(0, 0, 0, 0.5); }
+      .contact-us-page .show-question div.hidden {
+        display: none; }
+    .contact-us-page .show-question .bold {
+      font-weight: bold; }
+    .contact-us-page .show-question .italic {
+      font-style: italic; }
+    .contact-us-page .show-question .small {
+      font-size: 10px; }
+    .contact-us-page .show-question .green {
+      color: green; }
+  .contact-us-page .more-help-header {
     display: block;
-    height: 120px;
-    margin: 0;
-    padding: 0; }
-    .contact-us-page .iconic .recommended .icon-btn {
-      border: solid 1px #dc4831; }
-    .contact-us-page .iconic .recommended:after {
-      content: "recommended";
+    position: relative;
+    overflow: hidden; }
+    .contact-us-page .more-help-header .more-help {
+      font-weight: bold;
       text-transform: uppercase;
-      width: 120px;
-      font-size: 9px;
-      letter-spacing: 0.09em;
-      background-color: #dc4831;
-      color: white;
+      letter-spacing: 0.12em;
+      margin: 30px 10px 30px 60px; }
+    .contact-us-page .more-help-header .more-help-icon {
       display: block;
-      text-align: center;
-      border: solid 1px #dc4831;
-      margin: 0 auto;
-      padding: 3px 0; }
-  .contact-us-page .iconic div:not(.recommended) {
+      position: absolute;
+      background-image: url("/working-build/img/contact-us/Need-More-Help.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 50px;
+      width: 50px;
+      top: 12px; }
+  .contact-us-page .icons {
+    height: 160px; }
+  .contact-us-page .iconic {
     display: block;
-    height: 120px; }
-  .contact-us-page .iconic #Phone {
-    background-image: url("/working-build/img/contact-us/Phone.png");
+    height: 150px; }
+    .contact-us-page .iconic .icon-btn {
+      cursor: pointer;
+      margin: auto; }
+    .contact-us-page .iconic:hover {
+      text-decoration: none; }
+    .contact-us-page .iconic .recommended {
+      display: block;
+      height: 120px;
+      margin: 0;
+      padding: 0; }
+      .contact-us-page .iconic .recommended .icon-btn {
+        border: solid 1px #dc4831; }
+      .contact-us-page .iconic .recommended:after {
+        content: "recommended";
+        text-transform: uppercase;
+        width: 120px;
+        font-size: 9px;
+        letter-spacing: 0.09em;
+        background-color: #dc4831;
+        color: white;
+        display: block;
+        text-align: center;
+        border: solid 1px #dc4831;
+        margin: 0 auto;
+        padding: 3px 0; }
+    .contact-us-page .iconic div:not(.recommended) {
+      display: block;
+      height: 120px; }
+    .contact-us-page .iconic #Phone {
+      background-image: url("/working-build/img/contact-us/Phone.png");
+      display: block;
+      background-repeat: no-repeat;
+      background-position: 50% 45%;
+      height: 110px;
+      width: 120px; }
+      .contact-us-page .iconic #Phone:hover {
+        background-image: url("/working-build/img/contact-us/Phone_hover.png"); }
+    .contact-us-page .iconic #Email {
+      background-image: url("/working-build/img/contact-us/Email.png");
+      display: block;
+      background-repeat: no-repeat;
+      background-position: 65% 61%;
+      height: 110px;
+      width: 120px; }
+      .contact-us-page .iconic #Email:hover {
+        background-image: url("/working-build/img/contact-us/Email_hover.png"); }
+    .contact-us-page .iconic #Chat {
+      background-image: url("/working-build/img/contact-us/Chat.png");
+      display: block;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      height: 110px;
+      width: 120px; }
+      .contact-us-page .iconic #Chat:hover {
+        background-image: url("/working-build/img/contact-us/Chat_hover.png"); }
+  .contact-us-page .info-email {
+    position: relative; }
+    .contact-us-page .info-email .icon {
+      display: block; }
+    .contact-us-page .info-email input[name=countrycode] {
+      display: inline-block;
+      width: 24%; }
+    .contact-us-page .info-email input[name=phonenumber] {
+      display: inline-block;
+      width: 75%; }
+    .contact-us-page .info-email input[type=submit] {
+      background-color: #dc4831;
+      color: #efefef;
+      margin-left: 84%; }
+      .contact-us-page .info-email input[type=submit][disabled] {
+        background-color: gray; }
+  .contact-us-page .info-phone .icon img {
     display: block;
-    background-repeat: no-repeat;
-    background-position: 50% 45%;
-    height: 110px;
-    width: 120px; }
-    .contact-us-page .iconic #Phone:hover {
-      background-image: url("/working-build/img/contact-us/Phone_hover.png"); }
-  .contact-us-page .iconic #Email {
-    background-image: url("/working-build/img/contact-us/Email.png");
-    display: block;
-    background-repeat: no-repeat;
-    background-position: 65% 61%;
-    height: 110px;
-    width: 120px; }
-    .contact-us-page .iconic #Email:hover {
-      background-image: url("/working-build/img/contact-us/Email_hover.png"); }
-  .contact-us-page .iconic #Chat {
-    background-image: url("/working-build/img/contact-us/Chat.png");
-    display: block;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    height: 110px;
-    width: 120px; }
-    .contact-us-page .iconic #Chat:hover {
-      background-image: url("/working-build/img/contact-us/Chat_hover.png"); }
-.contact-us-page .info-email {
-  position: relative; }
-  .contact-us-page .info-email .icon {
-    display: block; }
-  .contact-us-page .info-email input[name=countrycode] {
-    display: inline-block;
-    width: 24%; }
-  .contact-us-page .info-email input[name=phonenumber] {
-    display: inline-block;
-    width: 75%; }
-  .contact-us-page .info-email input[type=submit] {
-    background-color: #dc4831;
-    color: #efefef;
-    margin-left: 84%; }
-    .contact-us-page .info-email input[type=submit][disabled] {
-      background-color: gray; }
-.contact-us-page .info-phone .icon img {
-  display: block;
-  padding: 0 8px 7px 8px; }
-.contact-us-page .info-phone .numbers-box {
-  border-left: 1px solid black;
-  padding: 11px 20px;
-  padding-left: 50px; }
-.contact-us-page .info-phone .phone-list {
-  margin-bottom: 30px; }
-.contact-us-page .info-phone .bold {
-  font-weight: bold; }
-.contact-us-page .info-phone .italic {
-  font-style: italic; }
-.contact-us-page .info-phone .small {
-  font-size: 10px; }
-.contact-us-page .lds-login img {
-  width: 127px;
-  margin-left: 14px;
-  margin-top: 10px; }
+    padding: 0 8px 7px 8px; }
+  .contact-us-page .info-phone .numbers-box {
+    border-left: 1px solid black;
+    padding: 11px 20px;
+    padding-left: 50px; }
+  .contact-us-page .info-phone .phone-list {
+    margin-bottom: 30px; }
+  .contact-us-page .info-phone .bold {
+    font-weight: bold; }
+  .contact-us-page .info-phone .italic {
+    font-style: italic; }
+  .contact-us-page .info-phone .small {
+    font-size: 10px; }
+  .contact-us-page .lds-login img {
+    width: 127px;
+    margin-left: 14px;
+    margin-top: 10px; }
 
 .self-help-page {
   min-height: 41%;
