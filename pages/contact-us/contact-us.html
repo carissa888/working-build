@@ -110,22 +110,22 @@
 			</div>
 			<div class="pf-section no-icon">
 				<div class="select-section bottom-border">
-					<span>I am a </span>
+					<span>I am a/an </span>
 					<select class="form-control" id="user-type">
-						<option selected="selected">--</option>
+						<option value="null" selected="selected">--</option>
 						<option data-temp-id="loading" disabled="disabled">Loading...</option>
 					</select>
 				</div>
 
-				<div class="select-section bottom-border">
-					<span id="login-message">Please Login: </span>
-					<a href="#"><img src="/working-build/img/LDS_account_button.png"></a>
+				<div id="LDS-Login-Prompt" class="select-section bottom-border hidden">
+					<span id="login-message">Please login with your LDS Account to continue: </span><br/>
+					<a class="lds-login" href="?LDS_ACCOUNT_LOGIN"><img src="/working-build/img/LDS_account_button.png"></a>
 				</div>
 
 				<div id="topic" class="select-section bottom-border">
 					<span>Please help me with </span>
 					<select class="form-control" id="help-type">
-						<option data-temp-id="null" selected="selected">--</option>
+						<option value="null" data-temp-id="null" selected="selected">--</option>
 						<option data-temp-id="chooseaud" disabled="disabled">Please choose an audience above...</option>
 					</select>
 
@@ -147,7 +147,7 @@
 					<div id="contactmethodicons" id="icons" class="icons">
 						<a class="iconic col-sm-4 col-xs-12"><div><div id="Phone" class="icon-btn"></div></div></a>
 						<a class="iconic col-sm-4 col-xs-12"><div><div id="Email" class="icon-btn"></div></div></a>
-						<a class="iconic col-sm-4 col-xs-12" target="_blank" href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=preChatSurveyContent&amp;site=1132447&amp;sessionkey=H5422877094638984895-f12a14678dad4163b62cfb3927ead5abK16291329&amp;survey=Pre-Chat"><div><div id="Chat" class="icon-btn"></div></div></a>
+						<a class="iconic col-sm-4 col-xs-12" target="_blank" href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&file=visitorWantsToChat&site=1132447&byhref=1&SESSIONVAR!skill=Pathway"><div><div id="Chat" class="icon-btn"></div></div></a>
 					</div>
 
 					<div id="info-phone" class="info-phone col-xs-12 hidden">
@@ -167,14 +167,20 @@
 
 					<div id="info-email" class="info-email col-xs-12 hidden">
 						<div class="icon col-sm-2 col-md-offset-1"> <img src="/working-build/img/contact-us/Email_hover.png"><a class="btn btn-default back-btn" href="#">&lt;&lt; Back</a></div>
+						
 						<form class="col-md-6 col-sm-10 contact-email-form" method="post">
+						<p id="email_auth_message" class="hidden">Please sign in with your LDS Account above to continue.</p>
+						<div id="email_form">
 							<p><em class="gray">Fields with an * are required.</em></p>
 							<label>Last Name *</label><br/>
 							<input class="form-control" type="text" name="lastname" required /><br/>
 							<label>First Name *</label><br/>
 							<input class="form-control" type="text" name="firstname" required /><br/>
-							<label>Pathway ID # *</label><br/>
-							<input class="form-control" type="text" name="pathwayid" required /><br/>
+							<div id="pathwayid" class="hidden">
+								<label>Pathway ID # *</label><br/>
+								<input class="form-control" type="text" name="pathwayid" required />
+								<br/>
+							</div>
 							<label>Email Address *</label><br/>
 							<input class="form-control" type="text" name="emailaddress" required /><br/>
 							<label>Country</label><br/>
@@ -252,6 +258,7 @@
 							<textarea class="form-control" name="comment" rows="15" cols="50"></textarea><br/>
 							<input class="btn btn-default" type="submit" value="Submit" disabled />
 							<br/><br/>
+							</div>
 						</form>
 					</div>
 				</div>
